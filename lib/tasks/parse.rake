@@ -72,7 +72,7 @@ namespace :parse do
 	 		square_price = ""
 	 		begin
 	 			square_price = item.children[6].children[1].children.to_s.strip
-	 			theRealEstate.square_price = square_price.to_d
+	 			theRealEstate.square_price = square_price.gsub(",","").to_d
 	 		rescue Exception => e
 	 			
 	 		end	
@@ -81,7 +81,7 @@ namespace :parse do
 	 		total_area = ""
 	 		begin
 	 			total_area = item.children[8].children.to_s.strip
-	 			theRealEstate.total_area = total_area.to_d
+	 			theRealEstate.total_area = total_area.gsub(",","").to_d
 	 		rescue Exception => e
 	 			
 	 		end	
