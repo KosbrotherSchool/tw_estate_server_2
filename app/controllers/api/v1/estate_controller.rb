@@ -21,18 +21,19 @@ class Api::V1::EstateController < ApplicationController
     	render :json => items
 	end
 
+	#### zillion use the following three method
 
 	def get_around_estates
 
-		center_x = 121.7155930000
-		center_y = 25.1215410000
-		delta_x = 0.00772495
-		delta_y = 0.01102129
+		# center_x = 121.7155930000
+		# center_y = 25.1215410000
+		# delta_x = 0.00772495
+		# delta_y = 0.01102129
 
-		# center_x = params[:center_x].to_f
-    	# center_y = params[:center_y].to_f
-    	# delta_x = params[:delta_x].to_f
-    	# delta_y = params[:delta_y].to_f
+		center_x = params[:center_x].to_f
+    	center_y = params[:center_y].to_f
+    	delta_x = params[:delta_x].to_f
+    	delta_y = params[:delta_y].to_f
 
 
     	critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
@@ -46,9 +47,9 @@ class Api::V1::EstateController < ApplicationController
 
 	def get_estates_by_ids
 
-		# ids = params[:estata_ids]
+		ids = params[:estata_ids]
 
-		ids = "1991, 1992"
+		# ids = "1991, 1992"
 		ids_array = ids.split(",").map { |s| s.to_i }
 		items = Realestate.where(:id => ids_array)
 
@@ -57,6 +58,20 @@ class Api::V1::EstateController < ApplicationController
 	end
 
 	def get_estate_details
+
+		id = params[:estata_id]
+
+		# id = 1991
+		land_data = LandData.where("realestate_id = #{id}")
+		building_data = BuildingData.where("realestate_id = #{id}")
+		parking_data = ParkingData.where("realestate_id = #{id}")
+
+		detail_data = Array.new
+		detail_data << land_data
+		detail_data << building_data
+		detail_data << parking_data
+
+		render :json => detail_data
 
 	end
 
