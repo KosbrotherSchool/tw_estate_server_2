@@ -67,7 +67,7 @@ ActiveRecord::Schema.define(version: 20140113141202) do
   create_table "raw_items", force: true do |t|
     t.integer  "raw_page_id"
     t.text     "raw_detail"
-    t.string   "raw_xy"
+    t.text     "raw_xy"
     t.integer  "item_num"
     t.datetime "created_at"
     t.datetime "updated_at"

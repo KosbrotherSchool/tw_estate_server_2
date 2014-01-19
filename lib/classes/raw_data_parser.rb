@@ -62,7 +62,7 @@ class RawDataParser
 	 		square_price = ""
 	 		begin
 	 			square_price = item.children[6].children[1].children.to_s.strip
-	 			theRealEstate.square_price = square_price.to_d
+	 			theRealEstate.square_price = square_price.gsub(",","").to_d
 	 		rescue Exception => e
 	 			
 	 		end	
@@ -71,7 +71,7 @@ class RawDataParser
 	 		total_area = ""
 	 		begin
 	 			total_area = item.children[8].children.to_s.strip
-	 			theRealEstate.total_area = total_area.to_d
+	 			theRealEstate.total_area = total_area.gsub(",","").to_d
 	 		rescue Exception => e
 	 			
 	 		end	
@@ -154,7 +154,7 @@ class RawDataParser
 
 	 		# set only crawl realestate now
 	 		theRealEstate.estate_group = 1
-
+	 		# theRealEstate.save
 
 			# use raw_page id to parse other datas
 			raw_item = RawItem.where(" raw_page_id = #{raw_page.id} And item_num = #{item_num} ").first
