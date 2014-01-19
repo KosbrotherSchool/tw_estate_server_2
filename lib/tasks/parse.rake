@@ -160,6 +160,7 @@ namespace :parse do
 
 	 		# set only crawl realestate now
 	 		theRealEstate.estate_group = 1
+	 		theRealEstate.save
 
 
 			# use raw_page id to parse other datas
