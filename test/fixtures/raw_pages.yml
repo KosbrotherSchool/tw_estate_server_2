@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  html: MyText
+  page_num: 1
+  county_id: 1
+  town_id: 1
+  is_parsed: false
+
+two:
+  html: MyText
+  page_num: 1
+  county_id: 1
+  town_id: 1
+  is_parsed: false

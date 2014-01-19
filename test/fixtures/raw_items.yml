@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  raw_page_id: 1
+  raw_detail: MyText
+  raw_xy: MyString
+  item_num: 1
+
+two:
+  raw_page_id: 1
+  raw_detail: MyText
+  raw_xy: MyString
+  item_num: 1
