@@ -154,7 +154,7 @@ class RawDataParser
 
 	 		# set only crawl realestate now
 	 		theRealEstate.estate_group = 1
-	 		# theRealEstate.save
+	 		theRealEstate.save
 
 			# use raw_page id to parse other datas
 			raw_item = RawItem.where(" raw_page_id = #{raw_page.id} And item_num = #{item_num} ").first

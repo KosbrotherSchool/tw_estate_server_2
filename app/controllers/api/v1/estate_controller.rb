@@ -75,4 +75,22 @@ class Api::V1::EstateController < ApplicationController
 
 	end
 
+	def get_estate_by_distance
+
+		#  1 degree is about 111000m = 111km
+		#  1 km = 0.009009009 degree ~= 0.009009 degree
+		km_dis = params[:km_dis].to_d
+		center_x = params[:center_x].to_f
+    	center_y = params[:center_y].to_f
+		degree_dis = km_dis * 0.009009 
+
+		critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
+		border = "and x_long > #{center_x - degree_dis} and x_long < #{center_x + degree_dis} and y_lat > #{center_y - degree_dis} and y_lat < #{center_y + degree_dis}" 
+
+		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border}")
+
+		render :json => items
+		
+	end
+
 end
