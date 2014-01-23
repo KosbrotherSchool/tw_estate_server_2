@@ -75,6 +75,8 @@ class Api::V1::EstateController < ApplicationController
 
 	end
 
+	# for house price
+
 	def get_estate_by_distance
 
 		#  1 degree is about 111000m = 111km

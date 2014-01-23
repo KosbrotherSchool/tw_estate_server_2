@@ -67,10 +67,12 @@ namespace :crawl do
 				in_type: "land",
 				formaturl: "",
 			},
-			headers:{
-				cookie: cookies
+			:headers => {
+				:cookie => cookies
 			}
 		)
+
+		# puts response.body
 
 		if response.code != 200
 			puts "request denied"
@@ -79,6 +81,20 @@ namespace :crawl do
 			puts response.code
 			puts "scraping " + url
 		end
+
+
+		# change menu
+		response_change = Typhoeus.post(
+			"http://lvr.land.moi.gov.tw/N11/pro/codeClass.action",
+			:headers => {
+				:cookie => cookies
+			},
+			:params => {
+				'type' => "BUILDTYPE"
+			}
+		)
+
+		puts response_change.body
 
 		# dom = Nokogiri::HTML(response.body)
 		# puts dom.css("body")
@@ -97,7 +113,9 @@ namespace :crawl do
 		# get token
 		token = getToken(cookies)	
 
-		qry_land_url = "http://lvr.land.moi.gov.tw/N11/QryClass_land.action"
+		# qry_land_url = "http://lvr.land.moi.gov.tw/N11/QryClass_land.action"
+		qry_land_url = "http://lvr.land.moi.gov.tw/N11/QryClass_sale.action"
+
 
 		qry_land_request = Typhoeus::Request.new(
 		  	qry_land_url,
@@ -140,6 +158,9 @@ namespace :crawl do
 
 		qry_land_response = qry_land_request.response
 
+		puts "query land-------------"
+		puts qry_land_response.body
+
 		if qry_land_response.code != 200
 			puts "request denied"
 			return
@@ -155,9 +176,16 @@ namespace :crawl do
 		if current_rows_num == 200
 			puts "crawl first 200 items"
 			page_no = Nokogiri::HTML(qry_land_response.body, nil, "UTF-8")
-			html_table = page_no.css("#hiddenresult")
-			mTown.current_rows_num = current_rows_num
-			mTown.save
+			if page_no.css("#hiddenresult").size != 0
+				html_table = page_no.css("#hiddenresult")
+				mTown.current_rows_num = current_rows_num
+				mTown.save
+			else
+				puts "nil html"
+				mTown.is_crawl_finished = true
+				mTown.save
+				return
+			end
 		else
 			# query next 200 page
 			sleep(1)
@@ -420,6 +448,38 @@ namespace :crawl do
 		puts body.children[1].children[0].children[1]["value"]
 
 	end
+
+	task :test_puts_town_year_price => :environment do
+
+	  town_id = 1
+		exchange_year = [101, 102]
+		# ground_type_id = 1
+		building_type_id = 1
+
+		puts "位置: " + Town.find(town_id).name
+
+		0.upto exchange_year.size-1 do |num|
+
+			puts "The year: #{exchange_year[num]} "+ " " + BuildingType.find(building_type_id).name 
+
+			1.upto 12 do |month|
+
+				items = Realestate.where(" square_price IS NOT NULL and town_id = 1 and exchange_year = #{exchange_year[num]} and exchange_month = #{month} and building_type_id = #{building_type_id}")
+				# cal average
+				sum = 0.0
+				items.each do |item|
+					sum = sum + item.square_price
+				end
+				average = sum / items.size
+
+				puts "#{month} 月: " + " #{average} 萬" 
+
+			end
+
+		end
+
+	end
+
 
 	# task :test => :environment do
 
