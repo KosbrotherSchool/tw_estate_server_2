@@ -25,5 +25,6 @@ class CreateRealestates < ActiveRecord::Migration
       t.integer :building_type_id
       t.timestamps
     end
+
   end
 end

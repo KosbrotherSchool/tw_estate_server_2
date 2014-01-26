@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140113141202) do
+ActiveRecord::Schema.define(version: 20140124025028) do
 
   create_table "building_data", force: true do |t|
     t.integer  "building_age"
@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "building_data", ["realestate_id"], name: "index_building_data_on_realestate_id", using: :btree
 
   create_table "building_types", force: true do |t|
     t.string   "name"
@@ -54,6 +56,8 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.datetime "updated_at"
   end
 
+  add_index "land_data", ["realestate_id"], name: "index_land_data_on_realestate_id", using: :btree
+
   create_table "parking_data", force: true do |t|
     t.string   "index"
     t.string   "parking_type"
@@ -64,6 +68,8 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.datetime "updated_at"
   end
 
+  add_index "parking_data", ["realestate_id"], name: "index_parking_data_on_realestate_id", using: :btree
+
   create_table "raw_items", force: true do |t|
     t.integer  "raw_page_id"
     t.text     "raw_detail"
@@ -72,6 +78,9 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "raw_items", ["item_num"], name: "index_raw_items_on_item_num", using: :btree
+  add_index "raw_items", ["raw_page_id"], name: "index_raw_items_on_raw_page_id", using: :btree
 
   create_table "raw_pages", force: true do |t|
     t.text     "html",       limit: 2147483647
@@ -82,6 +91,9 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "raw_pages", ["county_id"], name: "index_raw_pages_on_county_id", using: :btree
+  add_index "raw_pages", ["town_id"], name: "index_raw_pages_on_town_id", using: :btree
 
   create_table "realestates", force: true do |t|
     t.integer  "estate_group"
@@ -107,6 +119,11 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.string   "notes"
   end
 
+  add_index "realestates", ["building_type_id"], name: "index_realestates_on_building_type_id", using: :btree
+  add_index "realestates", ["county_id"], name: "index_realestates_on_county_id", using: :btree
+  add_index "realestates", ["ground_type_id"], name: "index_realestates_on_ground_type_id", using: :btree
+  add_index "realestates", ["town_id"], name: "index_realestates_on_town_id", using: :btree
+
   create_table "towns", force: true do |t|
     t.string   "name"
     t.string   "code"
@@ -117,5 +134,7 @@ ActiveRecord::Schema.define(version: 20140113141202) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "towns", ["county_id"], name: "index_towns_on_county_id", using: :btree
 
 end

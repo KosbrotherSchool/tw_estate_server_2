@@ -52,7 +52,7 @@ class RawDataCrawler
 
 		auto_login_code = e.text_for(img).strip.gsub(" ","")
 		auto_login_code = auto_login_code[0..3]
-		puts auto_login_code
+		# puts auto_login_code
 
 		# login_code = STDIN.gets.chomp
 		url = "http://lvr.land.moi.gov.tw/N11/login.action"
@@ -74,7 +74,7 @@ class RawDataCrawler
 			puts "request denied"
 			return
 		else
-			puts response.code
+			# puts response.code
 			puts "scraping " + url
 		end
 
@@ -132,7 +132,7 @@ class RawDataCrawler
 			}
 		)
 
-		puts qry_land_request.url
+		# puts qry_land_request.url
 
 		qry_land_request.run
 
@@ -143,7 +143,7 @@ class RawDataCrawler
 			RawDataWorker.perform_async(town_id)
 			return
 		else
-			puts qry_land_response.code
+			# puts qry_land_response.code
 			puts "request land data: " + qry_land_url
 			page_no = Nokogiri::HTML(qry_land_response.body, nil, "UTF-8")
 			if page_no.css("#hiddenresult").size == 0
@@ -186,7 +186,7 @@ class RawDataCrawler
 				}
 			)
 
-			puts next_page_request.url
+			# puts next_page_request.url
 
 			next_page_request.run
 			next_page_response = next_page_request.response
@@ -277,6 +277,7 @@ class RawDataCrawler
 
 			# get detail 1. get token 2. get detail response
 			token = getToken(cookies)
+			puts "this token: " + token
 
 			# sleep(0.5)
 
@@ -330,11 +331,11 @@ class RawDataCrawler
 			)
 
 			if tokenResponse.code != 200
-				puts "request denied"
+				puts "fail request token"
 				return
 			else
-				puts tokenResponse.code
-				puts "request token " + urlToken
+				# puts tokenResponse.code
+				puts "success request token " + urlToken
 			end
 
 			body = Nokogiri::HTML(tokenResponse.body)

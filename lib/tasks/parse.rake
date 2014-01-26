@@ -5,10 +5,21 @@ require "nokogiri"
 namespace :parse do 
 
 
+	task :clean_data => :environment do
+
+		Realestate.delete_all
+		LandData.delete_all
+		BuildingData.delete_all
+		ParkingData.delete_all
+
+	end
+
+
 	task :perform_parse_worker => :environment do
 
 		rawPages = RawPage.all
 		rawPages.each do |rawPage|
+			puts "Add Worker: " + rawPage.id.to_s
 			ParseWorker.perform_async(rawPage.id)
 		end
 
