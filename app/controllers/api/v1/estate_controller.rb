@@ -86,10 +86,31 @@ class Api::V1::EstateController < ApplicationController
     	center_y = params[:center_y].to_f
 		degree_dis = km_dis * 0.009009 
 
+
+		crawlDate = CrawlRecord.last
+		crawlMonth = crawlDate.crawl_month
+		crawlYear = crawlDate.crawl_year
+		beginMonth = 0
+		beginYear = 0
+		if (crawlMonth > 4)
+			beginMonth = crawlMonth - 3
+			beginYear = crawlYear
+		else
+			beginMonth = crawlMonth + 13 - 4
+			beginYear = crawlYear - 1
+		end
+
+		timeRange = ""
+		if beginYear == crawlYear
+			timeRange = "and exchange_year=#{beginYear} and exchange_month <= #{crawlMonth} and exchange_month >= #{beginMonth}"
+		else
+			timeRange = "and ( exchange_year = #{crawlYear} OR (exchange_year=#{beginYear} and exchange_month >= #{beginMonth}) )"
+		end
+
 		critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
 		border = "and x_long > #{center_x - degree_dis} and x_long < #{center_x + degree_dis} and y_lat > #{center_y - degree_dis} and y_lat < #{center_y + degree_dis}" 
 
-		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border}")
+		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange}")
 
 		render :json => items
 		
