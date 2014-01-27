@@ -1,4 +1,4 @@
-rakeclass CreateCrawlRecords < ActiveRecord::Migration
+class CreateCrawlRecords < ActiveRecord::Migration
   def change
     create_table :crawl_records do |t|
       t.integer :crawl_year

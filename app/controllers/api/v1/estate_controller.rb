@@ -79,11 +79,13 @@ class Api::V1::EstateController < ApplicationController
 
 	def get_estate_by_distance
 
+		# 25.05535, 121.4588 
+
 		#  1 degree is about 111000m = 111km
 		#  1 km = 0.009009009 degree ~= 0.009009 degree
 		km_dis = params[:km_dis].to_d
 		center_x = params[:center_x].to_f
-    	center_y = params[:center_y].to_f
+    center_y = params[:center_y].to_f
 		degree_dis = km_dis * 0.009009 
 
 
@@ -115,5 +117,11 @@ class Api::V1::EstateController < ApplicationController
 		render :json => items
 		
 	end
+
+	def get_current_crawl_data
+		crawlDate = CrawlRecord.select("id, crawl_year, crawl_month").last
+		render :json => crawlDate
+	end
+
 
 end

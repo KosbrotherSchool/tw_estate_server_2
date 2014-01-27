@@ -13,6 +13,7 @@ TwEstateCrawlApp::Application.routes.draw do
 	      get 'get_estates_by_ids'
 	      get 'get_estate_details'
 	      get 'get_estate_by_distance'
+	      get 'get_current_crawl_data'
 	    end
 	  end
 	end
