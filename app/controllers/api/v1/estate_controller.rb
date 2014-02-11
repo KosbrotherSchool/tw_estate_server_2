@@ -85,9 +85,14 @@ class Api::V1::EstateController < ApplicationController
 		#  1 km = 0.009009009 degree ~= 0.009009 degree
 		km_dis = params[:km_dis].to_d
 		center_x = params[:center_x].to_f
-    center_y = params[:center_y].to_f
+    	center_y = params[:center_y].to_f
 		degree_dis = km_dis * 0.009009 
 
+		money_range = params[:money_range].to_i
+		ground_type = params[:ground_type]
+		building_type = params[:building_type]
+		square_price_min = params[:sp_min]
+		square_price_max = params[:sp_max]
 
 		crawlDate = CrawlRecord.last
 		crawlMonth = crawlDate.crawl_month
@@ -102,6 +107,171 @@ class Api::V1::EstateController < ApplicationController
 			beginYear = crawlYear - 1
 		end
 
+		moneyRange = ""
+		if money_range != 0
+			moneyRange = "and total_price < #{money_range}"
+		end
+
+		groundType = ""
+		if ground_type != nil
+			if ground_type.index("0")
+				# do nothing
+			else
+				if ground_type.index("1")
+					if groundType.length == 0
+						groundType = groundType + " and ( ground_type_id = 1"
+					else
+						groundType = groundType + " or ground_type_id = 1"
+					end
+				end
+
+				if ground_type.index("2")
+					if groundType.length == 0
+						groundType = groundType + " and ( ground_type_id = 2"
+					else
+						groundType = groundType + " or ground_type_id = 2"
+					end
+				end
+
+				if ground_type.index("3")
+					if groundType.length == 0
+						groundType = groundType + " and ( ground_type_id = 3"
+					else
+						groundType = groundType + " or ground_type_id = 3"
+					end
+				end
+
+				if ground_type.index("4")
+					if groundType.length == 0
+						groundType = groundType + " and ( ground_type_id = 4"
+					else
+						groundType = groundType + " or ground_type_id = 4"
+					end
+				end
+
+				if ground_type.index("5")
+					if groundType.length == 0
+						groundType = groundType + " and ( ground_type_id = 5"
+					else
+						groundType = groundType + " or ground_type_id = 5"
+					end
+				end
+
+				groundType = groundType + ")"
+			end
+		end
+
+		buildingType = ""
+		if building_type != nil
+
+			if building_type.index("a")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 1"
+				else
+					buildingType = buildingType + " or building_type_id = 1"
+				end
+			end
+
+			if building_type.index("b")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 2"
+				else
+					buildingType = buildingType + " or building_type_id = 2"
+				end
+			end
+
+			if building_type.index("c")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 3"
+				else
+					buildingType = buildingType + " or building_type_id = 3"
+				end
+			end
+
+			if building_type.index("d")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 4"
+				else
+					buildingType = buildingType + " or building_type_id = 4"
+				end
+			end
+
+			if building_type.index("e")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 5"
+				else
+					buildingType = buildingType + " or building_type_id = 5"
+				end
+			end
+
+			if building_type.index("f")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 6"
+				else
+					buildingType = buildingType + " or building_type_id = 6"
+				end
+			end
+
+			if building_type.index("g")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 7"
+				else
+					buildingType = buildingType + " or building_type_id = 7"
+				end
+			end
+
+			if building_type.index("h")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 8"
+				else
+					buildingType = buildingType + " or building_type_id = 8"
+				end
+			end
+
+			if building_type.index("i")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 9"
+				else
+					buildingType = buildingType + " or building_type_id = 9"
+				end
+			end
+
+			if building_type.index("j")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 10"
+				else
+					buildingType = buildingType + " or building_type_id = 10"
+				end
+			end
+
+			if building_type.index("k")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 11"
+				else
+					buildingType = buildingType + " or building_type_id = 11"
+				end
+			end
+
+			if building_type.index("l")
+				if buildingType.length == 0
+					buildingType = buildingType + " and ( building_type_id = 12"
+				else
+					buildingType = buildingType + " or building_type_id = 12"
+				end
+			end
+
+			buildingType = buildingType + ")"
+		end
+
+		housePrice = ""
+		if square_price_min != nil
+			housePrice = "and square_price >= #{square_price_min} "
+		end
+
+		if square_price_max != nil
+			housePrice = housePrice + "and square_price < #{square_price_max} "
+		end
+
 		timeRange = ""
 		if beginYear == crawlYear
 			timeRange = "and exchange_year=#{beginYear} and exchange_month <= #{crawlMonth} and exchange_month >= #{beginMonth}"
@@ -112,7 +282,7 @@ class Api::V1::EstateController < ApplicationController
 		critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
 		border = "and x_long > #{center_x - degree_dis} and x_long < #{center_x + degree_dis} and y_lat > #{center_y - degree_dis} and y_lat < #{center_y + degree_dis}" 
 
-		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange}")
+		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, total_area, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange} #{moneyRange} #{groundType} #{buildingType} #{housePrice}")
 
 		render :json => items
 		
