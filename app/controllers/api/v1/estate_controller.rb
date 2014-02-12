@@ -88,11 +88,36 @@ class Api::V1::EstateController < ApplicationController
     	center_y = params[:center_y].to_f
 		degree_dis = km_dis * 0.009009 
 
-		money_range = params[:money_range].to_i
+		house_price_min = params[:hp_min]
+		house_price_max = params[:hp_max]
+
 		ground_type = params[:ground_type]
 		building_type = params[:building_type]
-		square_price_min = params[:sp_min]
-		square_price_max = params[:sp_max]
+
+		# square_price_min = params[:sp_min]
+		# square_price_max = params[:sp_max]
+
+		area_min = params[:a_min]
+		area_max = params[:a_max]
+
+
+		housePrice = ""
+		if house_price_min != nil
+			housePrice = "and total_price >= #{house_price_min} "
+		end
+
+		if house_price_max != nil
+			housePrice = housePrice + "and total_price < #{house_price_max} "
+		end
+
+		areaString = ""
+		if area_min != nil
+			areaString = "and total_area >= #{area_min} "
+		end
+
+		if area_max != nil
+			areaString = areaString + "and total_area < #{area_max}"
+		end
 
 		crawlDate = CrawlRecord.last
 		crawlMonth = crawlDate.crawl_month
@@ -105,11 +130,6 @@ class Api::V1::EstateController < ApplicationController
 		else
 			beginMonth = crawlMonth + 13 - 4
 			beginYear = crawlYear - 1
-		end
-
-		moneyRange = ""
-		if money_range != 0
-			moneyRange = "and total_price < #{money_range}"
 		end
 
 		groundType = ""
@@ -263,15 +283,6 @@ class Api::V1::EstateController < ApplicationController
 			buildingType = buildingType + ")"
 		end
 
-		housePrice = ""
-		if square_price_min != nil
-			housePrice = "and square_price >= #{square_price_min} "
-		end
-
-		if square_price_max != nil
-			housePrice = housePrice + "and square_price < #{square_price_max} "
-		end
-
 		timeRange = ""
 		if beginYear == crawlYear
 			timeRange = "and exchange_year=#{beginYear} and exchange_month <= #{crawlMonth} and exchange_month >= #{beginMonth}"
@@ -282,7 +293,7 @@ class Api::V1::EstateController < ApplicationController
 		critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
 		border = "and x_long > #{center_x - degree_dis} and x_long < #{center_x + degree_dis} and y_lat > #{center_y - degree_dis} and y_lat < #{center_y + degree_dis}" 
 
-		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, total_area, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange} #{moneyRange} #{groundType} #{buildingType} #{housePrice}")
+		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, total_area, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange} #{groundType} #{buildingType} #{housePrice} #{areaString}")
 
 		render :json => items
 		
