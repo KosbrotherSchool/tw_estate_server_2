@@ -47,7 +47,7 @@ class Api::V1::EstateController < ApplicationController
 
 	def get_estates_by_ids
 
-		ids = params[:estata_ids]
+		ids = params[:estate_ids]
 
 		# ids = "1991, 1992"
 		ids_array = ids.split(",").map { |s| s.to_i }
@@ -59,7 +59,7 @@ class Api::V1::EstateController < ApplicationController
 
 	def get_estate_details
 
-		id = params[:estata_id]
+		id = params[:estate_id]
 
 		# id = 1991
 		estate = Realestate.find(id)
