@@ -62,11 +62,13 @@ class Api::V1::EstateController < ApplicationController
 		id = params[:estata_id]
 
 		# id = 1991
+		estate = Realestate.find(id)
 		land_data = LandData.where("realestate_id = #{id}")
 		building_data = BuildingData.where("realestate_id = #{id}")
 		parking_data = ParkingData.where("realestate_id = #{id}")
 
 		detail_data = Array.new
+		detail_data << estate
 		detail_data << land_data
 		detail_data << building_data
 		detail_data << parking_data
@@ -91,15 +93,14 @@ class Api::V1::EstateController < ApplicationController
 		house_price_min = params[:hp_min]
 		house_price_max = params[:hp_max]
 
+		area_min = params[:a_min]
+		area_max = params[:a_max]
+
 		ground_type = params[:ground_type]
 		building_type = params[:building_type]
 
 		# square_price_min = params[:sp_min]
 		# square_price_max = params[:sp_max]
-
-		area_min = params[:a_min]
-		area_max = params[:a_max]
-
 
 		housePrice = ""
 		if house_price_min != nil
