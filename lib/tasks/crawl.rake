@@ -367,6 +367,7 @@ namespace :crawl do
 
 	task :perform_crawl_workder => :environment do
 
+		initialize_towns_data()
 		towns = Town.all
 		towns.each do |town|
 			RawDataWorker.perform_async(town.id)
@@ -376,10 +377,28 @@ namespace :crawl do
 
 	task :perform_crawl_workder_test => :environment do
 
-		RawDataWorker.perform_async(1)
+		# initialize_towns_data()
+		RawDataWorker.perform_async(335)
 	
 	end
 
+	task :perform_crawl_workder_for_unfinished_towns => :environment do
+
+		Town.where(" is_crawl_finished = false").each do |town|
+			RawDataWorker.perform_async(town.id)
+		end	
+	
+	end
+
+	def initialize_towns_data()
+		RawPage.delete_all
+		RawItem.delete_all
+		Town.all.each do |town|
+			town.current_rows_num = 0
+			town.is_crawl_finished = false
+			town.save
+		end
+	end
 
 	task :crawl_county_and_town => :environment do
 

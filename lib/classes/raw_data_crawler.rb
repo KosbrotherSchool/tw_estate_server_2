@@ -7,7 +7,7 @@ class RawDataCrawler
 	require "open-uri"
 	require 'tesseract'
 
-	def crawl_town_data town_id
+	def crawl_town_data(town_id, start_year, start_month, end_year, end_month)
 	
 		url = "http://lvr.land.moi.gov.tw/N11/ImageNumberN13?"
 
@@ -87,10 +87,10 @@ class RawDataCrawler
 		# context.call("doBase64","C")
 		qry_city = context.call("doBase64",qry_city)
 		qry_area_office = context.call("doBase64",qry_area_office)
-		qry_p_yyy_s = context.call("doBase64","101")
-		qry_p_yyy_e = context.call("doBase64","102")
-		qry_season_s = context.call("doBase64","1")
-		qry_season_e = context.call("doBase64","11")
+		qry_p_yyy_s = context.call("doBase64",start_year.to_s)
+		qry_season_s = context.call("doBase64",start_month.to_s)
+		qry_p_yyy_e = context.call("doBase64", end_year.to_s)
+		qry_season_e = context.call("doBase64",end_month.to_s)
 
 		# get token
 		token = getToken(cookies)	
@@ -138,6 +138,8 @@ class RawDataCrawler
 
 		qry_land_response = qry_land_request.response
 
+		# puts qry_land_response.body
+
 		if qry_land_response.code != 200		
 			puts "request denied"
 			RawDataWorker.perform_async(town_id)
@@ -147,8 +149,14 @@ class RawDataCrawler
 			puts "request land data: " + qry_land_url
 			page_no = Nokogiri::HTML(qry_land_response.body, nil, "UTF-8")
 			if page_no.css("#hiddenresult").size == 0
-				puts "fail login"
-				RawDataWorker.perform_async(town_id)
+				
+				if qry_land_response.body.index("description")
+					puts "zero data"
+				else
+					puts "fail login"
+					RawDataWorker.perform_async(town_id)
+				end
+				
 				return
 			end
 		end
@@ -313,7 +321,9 @@ class RawDataCrawler
 				# puts detail_response.code
 				# puts detail_response.body
 				rawItem.raw_detail = detail_response.body
-				rawItem.save
+				if !xy_body.index("html")
+					rawItem.save
+				end				
 			end
 		end
 
