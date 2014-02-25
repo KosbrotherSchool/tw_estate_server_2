@@ -31,6 +31,18 @@ namespace :parse do
 		
 	end
 
+	task :clean_last_months_data => :environment do
+
+		Realestate.where("exchange_year = 102 and exchange_month >= 9").each do |estate|
+			ParkingData.where(“realestate_id = estate.id”).delete_all
+			LandData.where(“realestate_id = estate.id”).delete_all
+			BuildingData.where(“realestate_id = estate.id”).delete_all
+		end
+
+		Realestate.where("exchange_year = 102 and exchange_month >= 9").delete_all
+
+	end
+
 	task :parse_data => :environment do
 
 		puts "I am in "
