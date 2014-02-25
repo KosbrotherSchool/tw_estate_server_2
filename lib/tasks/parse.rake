@@ -25,6 +25,12 @@ namespace :parse do
 
 	end
 
+	task :perform_parse_worker_test => :environment do
+		
+		ParseWorker.perform_async(4297)
+		
+	end
+
 	task :parse_data => :environment do
 
 		puts "I am in "

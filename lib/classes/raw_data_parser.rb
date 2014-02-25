@@ -146,8 +146,18 @@ class RawDataParser
 	 		end
 
 	 		noteString = item_view.css("tr td a")[1].children[0]["onkeypress"]
+
 	 		noteString = noteString[noteString.index("detail(")..noteString.length]
-	 		notes = noteString[noteString.index("'")+1..noteString.index("')")-1 ]
+
+	 		notes = ""
+
+	 		begin
+	 			notes = noteString[noteString.index("'")+1..noteString.index("')")-1 ]
+	 		rescue Exception => e
+	 			
+	 		end
+	 		
+
 	 		theRealEstate.notes = notes
 
 	 		theRealEstate.item_num = item_num
@@ -159,7 +169,6 @@ class RawDataParser
 			# use raw_page id to parse other datas
 			raw_item = RawItem.where(" raw_page_id = #{raw_page.id} And item_num = #{item_num} ").first
 
-
 			if raw_item == nil
 				break
 			end
@@ -168,17 +177,27 @@ class RawDataParser
 			page_no_detail = Nokogiri::HTML(raw_item.raw_detail)
 
 			landtable = page_no_detail.css("table#land_data")
-			land_data_size = landtable.css("tr").size
-			2.upto(land_data_size) do |x|
-				item = landtable.css("tr")[x-1]
-				newLandData = LandData.new
-				newLandData.land_position =  item.children[0].children.to_s.strip
-				newLandData.land_area = item.children[2].children.to_s.strip
-				newLandData.land_usage = item.children[4].children.to_s.strip
-				newLandData.realestate_id = theRealEstate.id
-				newLandData.save
-				theRealEstate.is_detail_crawled = true
+			land_data_size = 0
+
+			# puts "item num: " + item_num.to_s + " land size " + land_data_size.to_s
+
+			begin
+				land_data_size = landtable.css("tr").size
+				2.upto(land_data_size) do |x|
+					item = landtable.css("tr")[x-1]
+					newLandData = LandData.new
+					newLandData.land_position =  item.children[0].children.to_s.strip
+					newLandData.land_area = item.children[2].children.to_s.strip
+					newLandData.land_usage = item.children[4].children.to_s.strip
+					newLandData.realestate_id = theRealEstate.id
+					newLandData.save
+					theRealEstate.is_detail_crawled = true
+				end
+			rescue Exception => e
+				
 			end
+
+			
 
 			buildingTable_size = 0
 			begin
