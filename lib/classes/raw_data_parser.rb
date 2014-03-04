@@ -46,6 +46,7 @@ class RawDataParser
 	 			divide_position = exchange_date.index("/")
 	 			theRealEstate.exchange_year = exchange_date[0..divide_position-1].to_i
 	 			theRealEstate.exchange_month = exchange_date[divide_position+1..exchange_date.length].to_i
+	 			theRealEstate.exchange_date = theRealEstate.exchange_year  * 100 + theRealEstate.exchange_month
 	 		rescue Exception => e
 	 			
 	 		end	
