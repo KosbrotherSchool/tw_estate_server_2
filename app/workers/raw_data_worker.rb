@@ -6,7 +6,7 @@ class RawDataWorker
   def perform(town_id)
     mTown = Town.find(town_id)
     crawler = RawDataCrawler.new
-    crawler.crawl_town_data(town_id,102,9, 102, 12)
+    crawler.crawl_town_data(town_id,102,10, 103, 1)
   end
 
 end
