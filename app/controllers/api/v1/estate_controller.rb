@@ -291,7 +291,7 @@ class Api::V1::EstateController < ApplicationController
 			timeRange = "and ( exchange_year = #{crawlYear} OR (exchange_year=#{beginYear} and exchange_month >= #{beginMonth}) )"
 		end
 
-		critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
+		critera = "x_long IS NOT NULL and y_lat IS NOT NULL and is_show = true"
 		border = "and x_long > #{center_x - degree_dis} and x_long < #{center_x + degree_dis} and y_lat > #{center_y - degree_dis} and y_lat < #{center_y + degree_dis}" 
 
 		items = Realestate.select("id, exchange_year, exchange_month, total_price, square_price, total_area, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange} #{groundType} #{buildingType} #{housePrice} #{areaString}")

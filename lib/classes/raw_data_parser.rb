@@ -23,6 +23,7 @@ class RawDataParser
 			item = page_no.css("##{item_num}")
 
 			theRealEstate = Realestate.new
+			theRealEstate.is_show = false
 
 			if item.size == 0
 				puts "break"

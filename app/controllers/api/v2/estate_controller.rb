@@ -23,6 +23,8 @@ class Api::V2::EstateController < ApplicationController
 	def get_estate_by_distance
 
 		# 25.05535, 121.4588 
+		# http://0.0.0.0:3000/api/v2/estate/get_estate_by_distance?km_dis=0.2&center_x=121.7155930000&center_y=25.1215410000&start_date=10211&end_date=10212
+
 
 		#  1 degree is about 111000m = 111km
 		#  1 km = 0.009009009 degree ~= 0.009009 degree
@@ -234,7 +236,7 @@ class Api::V2::EstateController < ApplicationController
 
 		
 
-		critera = "x_long IS NOT NULL and y_lat IS NOT NULL"
+		critera = "x_long IS NOT NULL and y_lat IS NOT NULL and is_show = true"
 		border = "and x_long > #{center_x - degree_dis} and x_long < #{center_x + degree_dis} and y_lat > #{center_y - degree_dis} and y_lat < #{center_y + degree_dis}" 
 
 		items = Realestate.select("id, exchange_date , total_price, square_price, total_area, x_long, y_lat, building_type_id, ground_type_id").where("#{critera} #{border} #{timeRange} #{groundType} #{buildingType} #{housePrice} #{areaString}")
