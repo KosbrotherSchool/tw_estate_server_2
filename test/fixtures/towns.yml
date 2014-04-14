@@ -1,0 +1,3651 @@
+---
+towns_001:
+  id: 1
+  name: 安樂區
+  code: C06
+  county_id: 1
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 11:39:19.000000000 Z
+towns_002:
+  id: 2
+  name: 中山區
+  code: C05
+  county_id: 1
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 09:17:45.000000000 Z
+towns_003:
+  id: 3
+  name: 中正區
+  code: C01
+  county_id: 1
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 11:22:41.000000000 Z
+towns_004:
+  id: 4
+  name: 七堵區
+  code: C02
+  county_id: 1
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 09:08:32.000000000 Z
+towns_005:
+  id: 5
+  name: 信義區
+  code: C07
+  county_id: 1
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 11:40:37.000000000 Z
+towns_006:
+  id: 6
+  name: 仁愛區
+  code: C04
+  county_id: 1
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 11:22:51.000000000 Z
+towns_007:
+  id: 7
+  name: 暖暖區
+  code: C03
+  county_id: 1
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:06.000000000 Z
+  updated_at: 2014-04-01 10:10:24.000000000 Z
+towns_008:
+  id: 8
+  name: 北投區
+  code: A16
+  county_id: 2
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 12:06:17.000000000 Z
+towns_009:
+  id: 9
+  name: 士林區
+  code: A15
+  county_id: 2
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:25:25.000000000 Z
+towns_010:
+  id: 10
+  name: 內湖區
+  code: A14
+  county_id: 2
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:30:29.000000000 Z
+towns_011:
+  id: 11
+  name: 中山區
+  code: A10
+  county_id: 2
+  current_rows_num: 1400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 12:09:04.000000000 Z
+towns_012:
+  id: 12
+  name: 松山區
+  code: A01
+  county_id: 2
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:33:21.000000000 Z
+towns_013:
+  id: 13
+  name: 大同區
+  code: A09
+  county_id: 2
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 09:48:10.000000000 Z
+towns_014:
+  id: 14
+  name: 南港區
+  code: A13
+  county_id: 2
+  current_rows_num: 0
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 07:40:12.000000000 Z
+towns_015:
+  id: 15
+  name: 萬華區
+  code: A05
+  county_id: 2
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:56:05.000000000 Z
+towns_016:
+  id: 16
+  name: 信義區
+  code: A17
+  county_id: 2
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:33:02.000000000 Z
+towns_017:
+  id: 17
+  name: 中正區
+  code: A03
+  county_id: 2
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:40:36.000000000 Z
+towns_018:
+  id: 18
+  name: 大安區
+  code: A02
+  county_id: 2
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:57:48.000000000 Z
+towns_019:
+  id: 19
+  name: 文山區
+  code: A11
+  county_id: 2
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:07.000000000 Z
+  updated_at: 2014-04-01 11:11:31.000000000 Z
+towns_020:
+  id: 20
+  name: 石門區
+  code: F31
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 08:10:24.000000000 Z
+towns_021:
+  id: 21
+  name: 三芝區
+  code: F30
+  county_id: 3
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:37:24.000000000 Z
+towns_022:
+  id: 22
+  name: 金山區
+  code: F25
+  county_id: 3
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:38:46.000000000 Z
+towns_023:
+  id: 23
+  name: 淡水區
+  code: F27
+  county_id: 3
+  current_rows_num: 3200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:15:36.000000000 Z
+towns_024:
+  id: 24
+  name: 萬里區
+  code: F26
+  county_id: 3
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:05:10.000000000 Z
+towns_025:
+  id: 25
+  name: 八里區
+  code: F32
+  county_id: 3
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 09:31:44.000000000 Z
+towns_026:
+  id: 26
+  name: 汐止區
+  code: F28
+  county_id: 3
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:02:48.000000000 Z
+towns_027:
+  id: 27
+  name: 瑞芳區
+  code: F21
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 09:47:58.000000000 Z
+towns_028:
+  id: 28
+  name: 林口區
+  code: F02
+  county_id: 3
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:00:13.000000000 Z
+towns_029:
+  id: 29
+  name: 五股區
+  code: F03
+  county_id: 3
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:56:59.000000000 Z
+towns_030:
+  id: 30
+  name: 貢寮區
+  code: F24
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 08:26:41.000000000 Z
+towns_031:
+  id: 31
+  name: 蘆洲區
+  code: F04
+  county_id: 3
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 09:41:07.000000000 Z
+towns_032:
+  id: 32
+  name: 雙溪區
+  code: F23
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:18:02.000000000 Z
+towns_033:
+  id: 33
+  name: 三重區
+  code: F05
+  county_id: 3
+  current_rows_num: 1800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:53:08.000000000 Z
+towns_034:
+  id: 34
+  name: 平溪區
+  code: F22
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 09:40:40.000000000 Z
+towns_035:
+  id: 35
+  name: 泰山區
+  code: F06
+  county_id: 3
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:45:50.000000000 Z
+towns_036:
+  id: 36
+  name: 新莊區
+  code: F01
+  county_id: 3
+  current_rows_num: 1600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:19:42.000000000 Z
+towns_037:
+  id: 37
+  name: 石碇區
+  code: F08
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:00:20.000000000 Z
+towns_038:
+  id: 38
+  name: 板橋區
+  code: F14
+  county_id: 3
+  current_rows_num: 1800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:09:49.000000000 Z
+towns_039:
+  id: 39
+  name: 深坑區
+  code: F09
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:25:19.000000000 Z
+towns_040:
+  id: 40
+  name: 永和區
+  code: F33
+  county_id: 3
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:05:18.000000000 Z
+towns_041:
+  id: 41
+  name: 樹林區
+  code: F17
+  county_id: 3
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:45:30.000000000 Z
+towns_042:
+  id: 42
+  name: 中和區
+  code: F18
+  county_id: 3
+  current_rows_num: 1800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:00:19.000000000 Z
+towns_043:
+  id: 43
+  name: 土城區
+  code: F19
+  county_id: 3
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:33:36.000000000 Z
+towns_044:
+  id: 44
+  name: 新店區
+  code: F07
+  county_id: 3
+  current_rows_num: 2600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:18:17.000000000 Z
+towns_045:
+  id: 45
+  name: 坪林區
+  code: F10
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 09:31:37.000000000 Z
+towns_046:
+  id: 46
+  name: 鶯歌區
+  code: F16
+  county_id: 3
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:51:12.000000000 Z
+towns_047:
+  id: 47
+  name: 三峽區
+  code: F15
+  county_id: 3
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:56:36.000000000 Z
+towns_048:
+  id: 48
+  name: 烏來區
+  code: F11
+  county_id: 3
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:32:04.000000000 Z
+towns_049:
+  id: 49
+  name: 蘆竹鄉
+  code: H05
+  county_id: 4
+  current_rows_num: 1600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:05:39.000000000 Z
+towns_050:
+  id: 50
+  name: 大園鄉
+  code: H06
+  county_id: 4
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:45:39.000000000 Z
+towns_051:
+  id: 51
+  name: 觀音鄉
+  code: H12
+  county_id: 4
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:23:34.000000000 Z
+towns_052:
+  id: 52
+  name: 龜山鄉
+  code: H07
+  county_id: 4
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:07:27.000000000 Z
+towns_053:
+  id: 53
+  name: 桃園市
+  code: H01
+  county_id: 4
+  current_rows_num: 3000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:12:55.000000000 Z
+towns_054:
+  id: 54
+  name: 中壢市
+  code: H03
+  county_id: 4
+  current_rows_num: 3000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:22:52.000000000 Z
+towns_055:
+  id: 55
+  name: 新屋鄉
+  code: H11
+  county_id: 4
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 10:44:25.000000000 Z
+towns_056:
+  id: 56
+  name: 八德市
+  code: H08
+  county_id: 4
+  current_rows_num: 1400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:10:28.000000000 Z
+towns_057:
+  id: 57
+  name: 平鎮市
+  code: H10
+  county_id: 4
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:48:19.000000000 Z
+towns_058:
+  id: 58
+  name: 大溪鎮
+  code: H02
+  county_id: 4
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 12:03:21.000000000 Z
+towns_059:
+  id: 59
+  name: 龍潭鄉
+  code: H09
+  county_id: 4
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:48:14.000000000 Z
+towns_060:
+  id: 60
+  name: 復興鄉
+  code: H13
+  county_id: 4
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 07:57:52.000000000 Z
+towns_061:
+  id: 61
+  name: 楊梅市
+  code: H04
+  county_id: 4
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:08.000000000 Z
+  updated_at: 2014-04-01 11:39:47.000000000 Z
+towns_062:
+  id: 62
+  name: 新竹市
+  code: O01
+  county_id: 5
+  current_rows_num: 3000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:09.000000000 Z
+  updated_at: 2014-04-01 12:20:29.000000000 Z
+towns_063:
+  id: 63
+  name: 新豐鄉
+  code: J09
+  county_id: 6
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 10:56:57.000000000 Z
+towns_064:
+  id: 64
+  name: 湖口鄉
+  code: J06
+  county_id: 6
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 10:56:47.000000000 Z
+towns_065:
+  id: 65
+  name: 新埔鎮
+  code: J04
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 07:58:05.000000000 Z
+towns_066:
+  id: 66
+  name: 竹北市
+  code: J05
+  county_id: 6
+  current_rows_num: 1800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 11:46:20.000000000 Z
+towns_067:
+  id: 67
+  name: 關西鎮
+  code: J03
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 09:00:32.000000000 Z
+towns_068:
+  id: 68
+  name: 芎林鄉
+  code: J10
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 10:20:27.000000000 Z
+towns_069:
+  id: 69
+  name: 竹東鎮
+  code: J02
+  county_id: 6
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 09:50:27.000000000 Z
+towns_070:
+  id: 70
+  name: 寶山鄉
+  code: J11
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 11:37:47.000000000 Z
+towns_071:
+  id: 71
+  name: 尖石鄉
+  code: J14
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 11:25:48.000000000 Z
+towns_072:
+  id: 72
+  name: 橫山鄉
+  code: J08
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 09:42:12.000000000 Z
+towns_073:
+  id: 73
+  name: 北埔鄉
+  code: J12
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 09:00:29.000000000 Z
+towns_074:
+  id: 74
+  name: 峨眉鄉
+  code: J13
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 08:11:43.000000000 Z
+towns_075:
+  id: 75
+  name: 五峰鄉
+  code: J15
+  county_id: 6
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:10.000000000 Z
+  updated_at: 2014-04-01 11:51:17.000000000 Z
+towns_076:
+  id: 76
+  name: 竹南鎮
+  code: K09
+  county_id: 7
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 11:18:43.000000000 Z
+towns_077:
+  id: 77
+  name: 頭份鎮
+  code: K10
+  county_id: 7
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 10:52:08.000000000 Z
+towns_078:
+  id: 78
+  name: 三灣鄉
+  code: K13
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 09:32:50.000000000 Z
+towns_079:
+  id: 79
+  name: 後龍鎮
+  code: K12
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 11:08:03.000000000 Z
+towns_080:
+  id: 80
+  name: 造橋鄉
+  code: K11
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 09:42:22.000000000 Z
+towns_081:
+  id: 81
+  name: 南庄鄉
+  code: K14
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 10:13:22.000000000 Z
+towns_082:
+  id: 82
+  name: 頭屋鄉
+  code: K08
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 11:08:04.000000000 Z
+towns_083:
+  id: 83
+  name: 獅潭鄉
+  code: K17
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 07:58:46.000000000 Z
+towns_084:
+  id: 84
+  name: 苗栗市
+  code: K01
+  county_id: 7
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 08:48:14.000000000 Z
+towns_085:
+  id: 85
+  name: 西湖鄉
+  code: K07
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 10:27:10.000000000 Z
+towns_086:
+  id: 86
+  name: 通霄鎮
+  code: K03
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 10:13:30.000000000 Z
+towns_087:
+  id: 87
+  name: 公館鄉
+  code: K04
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 09:09:24.000000000 Z
+towns_088:
+  id: 88
+  name: 銅鑼鄉
+  code: K05
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 07:58:47.000000000 Z
+towns_089:
+  id: 89
+  name: 泰安鄉
+  code: K18
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 09:20:59.000000000 Z
+towns_090:
+  id: 90
+  name: 苑裡鎮
+  code: K02
+  county_id: 7
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 09:00:52.000000000 Z
+towns_091:
+  id: 91
+  name: 大湖鄉
+  code: K15
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 08:29:38.000000000 Z
+towns_092:
+  id: 92
+  name: 三義鄉
+  code: K06
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 10:57:17.000000000 Z
+towns_093:
+  id: 93
+  name: 卓蘭鎮
+  code: K16
+  county_id: 7
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:11.000000000 Z
+  updated_at: 2014-04-01 10:45:11.000000000 Z
+towns_094:
+  id: 94
+  name: 中區
+  code: B01
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:20:59.000000000 Z
+towns_095:
+  id: 95
+  name: 北屯區
+  code: B08
+  county_id: 8
+  current_rows_num: 2400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 12:20:39.000000000 Z
+towns_096:
+  id: 96
+  name: 北區
+  code: B05
+  county_id: 8
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 12:10:07.000000000 Z
+towns_097:
+  id: 97
+  name: 西屯區
+  code: B06
+  county_id: 8
+  current_rows_num: 1800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 12:13:45.000000000 Z
+towns_098:
+  id: 98
+  name: 西區
+  code: B03
+  county_id: 8
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:52:34.000000000 Z
+towns_099:
+  id: 99
+  name: 東區
+  code: B02
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 12:01:55.000000000 Z
+towns_100:
+  id: 100
+  name: 南屯區
+  code: B07
+  county_id: 8
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:36:18.000000000 Z
+towns_101:
+  id: 101
+  name: 南區
+  code: B04
+  county_id: 8
+  current_rows_num: 800
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 09:33:25.000000000 Z
+towns_102:
+  id: 102
+  name: 大甲區
+  code: L03
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:13:51.000000000 Z
+towns_103:
+  id: 103
+  name: 大安區
+  code: L14
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 08:30:42.000000000 Z
+towns_104:
+  id: 104
+  name: 大肚區
+  code: L16
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:21:14.000000000 Z
+towns_105:
+  id: 105
+  name: 大里區
+  code: L20
+  county_id: 8
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:46:16.000000000 Z
+towns_106:
+  id: 106
+  name: 大雅區
+  code: L09
+  county_id: 8
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:39:54.000000000 Z
+towns_107:
+  id: 107
+  name: 太平區
+  code: L19
+  county_id: 8
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:12:25.000000000 Z
+towns_108:
+  id: 108
+  name: 外埔區
+  code: L13
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 08:30:56.000000000 Z
+towns_109:
+  id: 109
+  name: 石岡區
+  code: L12
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:27:28.000000000 Z
+towns_110:
+  id: 110
+  name: 后里區
+  code: L08
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 09:33:33.000000000 Z
+towns_111:
+  id: 111
+  name: 沙鹿區
+  code: L05
+  county_id: 8
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:45:37.000000000 Z
+towns_112:
+  id: 112
+  name: 和平區
+  code: L21
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:09:17.000000000 Z
+towns_113:
+  id: 113
+  name: 東勢區
+  code: L02
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 09:21:36.000000000 Z
+towns_114:
+  id: 114
+  name: 烏日區
+  code: L15
+  county_id: 8
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:01:59.000000000 Z
+towns_115:
+  id: 115
+  name: 神岡區
+  code: L07
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:02:19.000000000 Z
+towns_116:
+  id: 116
+  name: 梧棲區
+  code: L06
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 09:21:40.000000000 Z
+towns_117:
+  id: 117
+  name: 清水區
+  code: L04
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 09:01:46.000000000 Z
+towns_118:
+  id: 118
+  name: 新社區
+  code: L11
+  county_id: 8
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 08:32:49.000000000 Z
+towns_119:
+  id: 119
+  name: 潭子區
+  code: L10
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 08:15:51.000000000 Z
+towns_120:
+  id: 120
+  name: 龍井區
+  code: L17
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 10:40:33.000000000 Z
+towns_121:
+  id: 121
+  name: 豐原區
+  code: L01
+  county_id: 8
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:36:28.000000000 Z
+towns_122:
+  id: 122
+  name: 霧峰區
+  code: L18
+  county_id: 8
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:12.000000000 Z
+  updated_at: 2014-04-01 11:38:39.000000000 Z
+towns_123:
+  id: 123
+  name: 仁愛鄉
+  code: M13
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:02:27.000000000 Z
+towns_124:
+  id: 124
+  name: 國姓鄉
+  code: M10
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:01:53.000000000 Z
+towns_125:
+  id: 125
+  name: 埔里鎮
+  code: M02
+  county_id: 9
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:41:07.000000000 Z
+towns_126:
+  id: 126
+  name: 草屯鎮
+  code: M03
+  county_id: 9
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:20:40.000000000 Z
+towns_127:
+  id: 127
+  name: 中寮鄉
+  code: M08
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:45:36.000000000 Z
+towns_128:
+  id: 128
+  name: 南投市
+  code: M01
+  county_id: 9
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:57:42.000000000 Z
+towns_129:
+  id: 129
+  name: 魚池鄉
+  code: M09
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:34:45.000000000 Z
+towns_130:
+  id: 130
+  name: 水里鄉
+  code: M11
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:21:38.000000000 Z
+towns_131:
+  id: 131
+  name: 名間鄉
+  code: M06
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:51:45.000000000 Z
+towns_132:
+  id: 132
+  name: 信義鄉
+  code: M12
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:34:05.000000000 Z
+towns_133:
+  id: 133
+  name: 集集鎮
+  code: M05
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:33:22.000000000 Z
+towns_134:
+  id: 134
+  name: 竹山鎮
+  code: M04
+  county_id: 9
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:44:22.000000000 Z
+towns_135:
+  id: 135
+  name: 鹿谷鄉
+  code: M07
+  county_id: 9
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:26:59.000000000 Z
+towns_136:
+  id: 136
+  name: 伸港鄉
+  code: N10
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 08:33:20.000000000 Z
+towns_137:
+  id: 137
+  name: 和美鎮
+  code: N03
+  county_id: 10
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:41:11.000000000 Z
+towns_138:
+  id: 138
+  name: 線西鄉
+  code: N09
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 08:33:21.000000000 Z
+towns_139:
+  id: 139
+  name: 鹿港鎮
+  code: N02
+  county_id: 10
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:22:18.000000000 Z
+towns_140:
+  id: 140
+  name: 彰化市
+  code: N01
+  county_id: 10
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:27:22.000000000 Z
+towns_141:
+  id: 141
+  name: 秀水鄉
+  code: N12
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:22:11.000000000 Z
+towns_142:
+  id: 142
+  name: 福興鄉
+  code: N11
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:45:51.000000000 Z
+towns_143:
+  id: 143
+  name: 花壇鄉
+  code: N13
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:44:29.000000000 Z
+towns_144:
+  id: 144
+  name: 芬園鄉
+  code: N14
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:03:04.000000000 Z
+towns_145:
+  id: 145
+  name: 芳苑鄉
+  code: N23
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:41:14.000000000 Z
+towns_146:
+  id: 146
+  name: 埔鹽鄉
+  code: N16
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:52:06.000000000 Z
+towns_147:
+  id: 147
+  name: 大村鄉
+  code: N15
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:03:11.000000000 Z
+towns_148:
+  id: 148
+  name: 二林鎮
+  code: N08
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:12:29.000000000 Z
+towns_149:
+  id: 149
+  name: 員林鎮
+  code: N05
+  county_id: 10
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:50:51.000000000 Z
+towns_150:
+  id: 150
+  name: 溪湖鎮
+  code: N06
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 08:01:25.000000000 Z
+towns_151:
+  id: 151
+  name: 埔心鄉
+  code: N17
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 08:33:56.000000000 Z
+towns_152:
+  id: 152
+  name: 永靖鄉
+  code: N18
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:03:25.000000000 Z
+towns_153:
+  id: 153
+  name: 社頭鄉
+  code: N19
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:46:13.000000000 Z
+towns_154:
+  id: 154
+  name: 埤頭鄉
+  code: N22
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:22:23.000000000 Z
+towns_155:
+  id: 155
+  name: 田尾鄉
+  code: N21
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:46:00.000000000 Z
+towns_156:
+  id: 156
+  name: 大城鄉
+  code: N24
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:22:42.000000000 Z
+towns_157:
+  id: 157
+  name: 田中鎮
+  code: N07
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:13:23.000000000 Z
+towns_158:
+  id: 158
+  name: 北斗鎮
+  code: N04
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 11:24:06.000000000 Z
+towns_159:
+  id: 159
+  name: 竹塘鄉
+  code: N25
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:41:23.000000000 Z
+towns_160:
+  id: 160
+  name: 溪州鄉
+  code: N26
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 09:13:34.000000000 Z
+towns_161:
+  id: 161
+  name: 二水鄉
+  code: N20
+  county_id: 10
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:13.000000000 Z
+  updated_at: 2014-04-01 10:03:37.000000000 Z
+towns_162:
+  id: 162
+  name: 麥寮鄉
+  code: P13
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:13:40.000000000 Z
+towns_163:
+  id: 163
+  name: 二崙鄉
+  code: P11
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:35:13.000000000 Z
+towns_164:
+  id: 164
+  name: 崙背鄉
+  code: P12
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 08:52:08.000000000 Z
+towns_165:
+  id: 165
+  name: 西螺鎮
+  code: P04
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:35:18.000000000 Z
+towns_166:
+  id: 166
+  name: 莿桐鄉
+  code: P09
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:22:49.000000000 Z
+towns_167:
+  id: 167
+  name: 林內鄉
+  code: P10
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 08:34:26.000000000 Z
+towns_168:
+  id: 168
+  name: 臺西鄉
+  code: P16
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 08:18:31.000000000 Z
+towns_169:
+  id: 169
+  name: 斗六市
+  code: P01
+  county_id: 11
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 10:14:52.000000000 Z
+towns_170:
+  id: 170
+  name: 土庫鎮
+  code: P05
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 10:41:27.000000000 Z
+towns_171:
+  id: 171
+  name: 褒忠鄉
+  code: P15
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:35:17.000000000 Z
+towns_172:
+  id: 172
+  name: 虎尾鎮
+  code: P03
+  county_id: 11
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 10:14:41.000000000 Z
+towns_173:
+  id: 173
+  name: 東勢鄉
+  code: P14
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:52:36.000000000 Z
+towns_174:
+  id: 174
+  name: 斗南鎮
+  code: P02
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 08:36:26.000000000 Z
+towns_175:
+  id: 175
+  name: 四湖鄉
+  code: P18
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:14.000000000 Z
+  updated_at: 2014-04-01 09:22:57.000000000 Z
+towns_176:
+  id: 176
+  name: 古坑鄉
+  code: P07
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:15.000000000 Z
+  updated_at: 2014-04-01 11:31:46.000000000 Z
+towns_177:
+  id: 177
+  name: 元長鄉
+  code: P17
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:15.000000000 Z
+  updated_at: 2014-04-01 09:23:04.000000000 Z
+towns_178:
+  id: 178
+  name: 大埤鄉
+  code: P08
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:15.000000000 Z
+  updated_at: 2014-04-01 08:52:56.000000000 Z
+towns_179:
+  id: 179
+  name: 口湖鄉
+  code: P19
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:15.000000000 Z
+  updated_at: 2014-04-01 09:23:04.000000000 Z
+towns_180:
+  id: 180
+  name: 北港鎮
+  code: P06
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:15.000000000 Z
+  updated_at: 2014-04-01 11:31:46.000000000 Z
+towns_181:
+  id: 181
+  name: 水林鄉
+  code: P20
+  county_id: 11
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:15.000000000 Z
+  updated_at: 2014-04-01 10:46:01.000000000 Z
+towns_182:
+  id: 182
+  name: 嘉義市
+  code: I01
+  county_id: 12
+  current_rows_num: 1400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:16.000000000 Z
+  updated_at: 2014-04-01 12:10:37.000000000 Z
+towns_183:
+  id: 183
+  name: 大林鎮
+  code: Q04
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 08:37:15.000000000 Z
+towns_184:
+  id: 184
+  name: 溪口鄉
+  code: Q06
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:53:01.000000000 Z
+towns_185:
+  id: 185
+  name: 阿里山鄉
+  code: Q20
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 09:45:02.000000000 Z
+towns_186:
+  id: 186
+  name: 新港鄉
+  code: Q07
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:46:10.000000000 Z
+towns_187:
+  id: 187
+  name: 梅山鄉
+  code: Q16
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:22:50.000000000 Z
+towns_188:
+  id: 188
+  name: 民雄鄉
+  code: Q05
+  county_id: 13
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:23:01.000000000 Z
+towns_189:
+  id: 189
+  name: 東石鄉
+  code: Q09
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 11:09:55.000000000 Z
+towns_190:
+  id: 190
+  name: 六腳鄉
+  code: Q08
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:23:06.000000000 Z
+towns_191:
+  id: 191
+  name: 竹崎鄉
+  code: Q15
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 09:53:03.000000000 Z
+towns_192:
+  id: 192
+  name: 太保市
+  code: Q12
+  county_id: 13
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 09:35:46.000000000 Z
+towns_193:
+  id: 193
+  name: 番路鄉
+  code: Q17
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:23:08.000000000 Z
+towns_194:
+  id: 194
+  name: 朴子市
+  code: Q02
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:15:04.000000000 Z
+towns_195:
+  id: 195
+  name: 水上鄉
+  code: Q13
+  county_id: 13
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 11:10:01.000000000 Z
+towns_196:
+  id: 196
+  name: 中埔鄉
+  code: Q14
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:28:43.000000000 Z
+towns_197:
+  id: 197
+  name: 布袋鎮
+  code: Q03
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 09:14:22.000000000 Z
+towns_198:
+  id: 198
+  name: 鹿草鄉
+  code: Q11
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 08:38:05.000000000 Z
+towns_199:
+  id: 199
+  name: 義竹鄉
+  code: Q10
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 10:28:47.000000000 Z
+towns_200:
+  id: 200
+  name: 大埔鄉
+  code: Q18
+  county_id: 13
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:17.000000000 Z
+  updated_at: 2014-04-01 09:35:57.000000000 Z
+towns_201:
+  id: 201
+  name: 中西區
+  code: D08
+  county_id: 14
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:36:46.000000000 Z
+towns_202:
+  id: 202
+  name: 北區
+  code: D04
+  county_id: 14
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:45:27.000000000 Z
+towns_203:
+  id: 203
+  name: 安平區
+  code: D07
+  county_id: 14
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:03:46.000000000 Z
+towns_204:
+  id: 204
+  name: 安南區
+  code: D06
+  county_id: 14
+  current_rows_num: 1400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:58:15.000000000 Z
+towns_205:
+  id: 205
+  name: 東區
+  code: D01
+  county_id: 14
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:58:13.000000000 Z
+towns_206:
+  id: 206
+  name: 南區
+  code: D02
+  county_id: 14
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:38:59.000000000 Z
+towns_207:
+  id: 207
+  name: 七股區
+  code: R14
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:53:32.000000000 Z
+towns_208:
+  id: 208
+  name: 下營區
+  code: R08
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:24:21.000000000 Z
+towns_209:
+  id: 209
+  name: 大內區
+  code: R11
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:27:14.000000000 Z
+towns_210:
+  id: 210
+  name: 山上區
+  code: R22
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:15:27.000000000 Z
+towns_211:
+  id: 211
+  name: 仁德區
+  code: R27
+  county_id: 14
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:41:59.000000000 Z
+towns_212:
+  id: 212
+  name: 安定區
+  code: R21
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:23:27.000000000 Z
+towns_213:
+  id: 213
+  name: 白河區
+  code: R03
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 08:21:04.000000000 Z
+towns_214:
+  id: 214
+  name: 後壁區
+  code: R05
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:15:47.000000000 Z
+towns_215:
+  id: 215
+  name: 鹽水區
+  code: R02
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:15:39.000000000 Z
+towns_216:
+  id: 216
+  name: 新營區
+  code: R01
+  county_id: 14
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:58:36.000000000 Z
+towns_217:
+  id: 217
+  name: 北門區
+  code: R16
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:25:41.000000000 Z
+towns_218:
+  id: 218
+  name: 東山區
+  code: R06
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:23:27.000000000 Z
+towns_219:
+  id: 219
+  name: 柳營區
+  code: R04
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:41:51.000000000 Z
+towns_220:
+  id: 220
+  name: 學甲區
+  code: R17
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:37:14.000000000 Z
+towns_221:
+  id: 221
+  name: 六甲區
+  code: R09
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:53:49.000000000 Z
+towns_222:
+  id: 222
+  name: 將軍區
+  code: R15
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:29:10.000000000 Z
+towns_223:
+  id: 223
+  name: 南化區
+  code: R25
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:23:28.000000000 Z
+towns_224:
+  id: 224
+  name: 楠西區
+  code: R24
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:15:46.000000000 Z
+towns_225:
+  id: 225
+  name: 麻豆區
+  code: R07
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 08:39:00.000000000 Z
+towns_226:
+  id: 226
+  name: 官田區
+  code: R10
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:55:00.000000000 Z
+towns_227:
+  id: 227
+  name: 佳里區
+  code: R12
+  county_id: 14
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:12:43.000000000 Z
+towns_228:
+  id: 228
+  name: 玉井區
+  code: R23
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:47:15.000000000 Z
+towns_229:
+  id: 229
+  name: 善化區
+  code: R19
+  county_id: 14
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:58:50.000000000 Z
+towns_230:
+  id: 230
+  name: 西港區
+  code: R13
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:45:58.000000000 Z
+towns_231:
+  id: 231
+  name: 新市區
+  code: R20
+  county_id: 14
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:48:48.000000000 Z
+towns_232:
+  id: 232
+  name: 左鎮區
+  code: R26
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 11:47:14.000000000 Z
+towns_233:
+  id: 233
+  name: 新化區
+  code: R18
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 10:06:00.000000000 Z
+towns_234:
+  id: 234
+  name: 永康區
+  code: R31
+  county_id: 14
+  current_rows_num: 1600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 12:00:51.000000000 Z
+towns_235:
+  id: 235
+  name: 歸仁區
+  code: R28
+  county_id: 14
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:05:20.000000000 Z
+towns_236:
+  id: 236
+  name: 關廟區
+  code: R29
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:26:26.000000000 Z
+towns_237:
+  id: 237
+  name: 龍崎區
+  code: R30
+  county_id: 14
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:19.000000000 Z
+  updated_at: 2014-04-01 09:46:05.000000000 Z
+towns_238:
+  id: 238
+  name: 三民區
+  code: E05
+  county_id: 15
+  current_rows_num: 1600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 12:03:17.000000000 Z
+towns_239:
+  id: 239
+  name: 小港區
+  code: E11
+  county_id: 15
+  current_rows_num: 0
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 07:40:17.000000000 Z
+towns_240:
+  id: 240
+  name: 左營區
+  code: E03
+  county_id: 15
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 11:57:23.000000000 Z
+towns_241:
+  id: 241
+  name: 前金區
+  code: E07
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:37:54.000000000 Z
+towns_242:
+  id: 242
+  name: 前鎮區
+  code: E09
+  county_id: 15
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 11:36:49.000000000 Z
+towns_243:
+  id: 243
+  name: 苓雅區
+  code: E08
+  county_id: 15
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 11:37:00.000000000 Z
+towns_244:
+  id: 244
+  name: 新興區
+  code: E06
+  county_id: 15
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:46:19.000000000 Z
+towns_245:
+  id: 245
+  name: 楠梓區
+  code: E04
+  county_id: 15
+  current_rows_num: 1200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 12:12:59.000000000 Z
+towns_246:
+  id: 246
+  name: 鼓山區
+  code: E02
+  county_id: 15
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 11:40:16.000000000 Z
+towns_247:
+  id: 247
+  name: 旗津區
+  code: E10
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:15:37.000000000 Z
+towns_248:
+  id: 248
+  name: 鹽埕區
+  code: E01
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:55:43.000000000 Z
+towns_249:
+  id: 249
+  name: 桃源區
+  code: E37
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:23:37.000000000 Z
+towns_250:
+  id: 250
+  name: 那瑪夏區
+  code: E38
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:27:07.000000000 Z
+towns_251:
+  id: 251
+  name: 甲仙區
+  code: E33
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:55:35.000000000 Z
+towns_252:
+  id: 252
+  name: 六龜區
+  code: E32
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:55:43.000000000 Z
+towns_253:
+  id: 253
+  name: 杉林區
+  code: E34
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:29:34.000000000 Z
+towns_254:
+  id: 254
+  name: 內門區
+  code: E35
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:55:57.000000000 Z
+towns_255:
+  id: 255
+  name: 茂林區
+  code: E36
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:27:22.000000000 Z
+towns_256:
+  id: 256
+  name: 美濃區
+  code: E31
+  county_id: 15
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:56:08.000000000 Z
+towns_257:
+  id: 257
+  name: 旗山區
+  code: E30
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:05:24.000000000 Z
+towns_258:
+  id: 258
+  name: 田寮區
+  code: E22
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:05:22.000000000 Z
+towns_259:
+  id: 259
+  name: 湖內區
+  code: E25
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:29:42.000000000 Z
+towns_260:
+  id: 260
+  name: 茄萣區
+  code: E26
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:22:59.000000000 Z
+towns_261:
+  id: 261
+  name: 阿蓮區
+  code: E23
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:39:56.000000000 Z
+towns_262:
+  id: 262
+  name: 路竹區
+  code: E24
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:39:56.000000000 Z
+towns_263:
+  id: 263
+  name: 永安區
+  code: E27
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:23:46.000000000 Z
+towns_264:
+  id: 264
+  name: 岡山區
+  code: E19
+  county_id: 15
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:55:26.000000000 Z
+towns_265:
+  id: 265
+  name: 燕巢區
+  code: E21
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:38:21.000000000 Z
+towns_266:
+  id: 266
+  name: 彌陀區
+  code: E28
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:37:00.000000000 Z
+towns_267:
+  id: 267
+  name: 橋頭區
+  code: E20
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:38:28.000000000 Z
+towns_268:
+  id: 268
+  name: 大樹區
+  code: E15
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 08:40:04.000000000 Z
+towns_269:
+  id: 269
+  name: 梓官區
+  code: E29
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:57:00.000000000 Z
+towns_270:
+  id: 270
+  name: 大社區
+  code: E16
+  county_id: 15
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 09:06:02.000000000 Z
+towns_271:
+  id: 271
+  name: 仁武區
+  code: E17
+  county_id: 15
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 11:12:55.000000000 Z
+towns_272:
+  id: 272
+  name: 鳥松區
+  code: E18
+  county_id: 15
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 11:36:51.000000000 Z
+towns_273:
+  id: 273
+  name: 大寮區
+  code: E14
+  county_id: 15
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:37:06.000000000 Z
+towns_274:
+  id: 274
+  name: 鳳山區
+  code: E12
+  county_id: 15
+  current_rows_num: 2000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 12:14:23.000000000 Z
+towns_275:
+  id: 275
+  name: 林園區
+  code: E13
+  county_id: 15
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:20.000000000 Z
+  updated_at: 2014-04-01 10:55:36.000000000 Z
+towns_276:
+  id: 276
+  name: 高樹鄉
+  code: T11
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:05:49.000000000 Z
+towns_277:
+  id: 277
+  name: 三地門鄉
+  code: T26
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:27:54.000000000 Z
+towns_278:
+  id: 278
+  name: 霧臺鄉
+  code: T27
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:37:01.000000000 Z
+towns_279:
+  id: 279
+  name: 里港鄉
+  code: T09
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:57:32.000000000 Z
+towns_280:
+  id: 280
+  name: 鹽埔鄉
+  code: T10
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:12:56.000000000 Z
+towns_281:
+  id: 281
+  name: 九如鄉
+  code: T08
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:43:03.000000000 Z
+towns_282:
+  id: 282
+  name: 長治鄉
+  code: T06
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:23:40.000000000 Z
+towns_283:
+  id: 283
+  name: 屏東市
+  code: T01
+  county_id: 16
+  current_rows_num: 1000
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:59:03.000000000 Z
+towns_284:
+  id: 284
+  name: 瑪家鄉
+  code: T28
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:04:39.000000000 Z
+towns_285:
+  id: 285
+  name: 內埔鄉
+  code: T13
+  county_id: 16
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:58:06.000000000 Z
+towns_286:
+  id: 286
+  name: 麟洛鄉
+  code: T07
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:55:38.000000000 Z
+towns_287:
+  id: 287
+  name: 泰武鄉
+  code: T29
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:57:24.000000000 Z
+towns_288:
+  id: 288
+  name: 萬巒鄉
+  code: T12
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:46:54.000000000 Z
+towns_289:
+  id: 289
+  name: 竹田鄉
+  code: T14
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:30:23.000000000 Z
+towns_290:
+  id: 290
+  name: 萬丹鄉
+  code: T05
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:16:51.000000000 Z
+towns_291:
+  id: 291
+  name: 來義鄉
+  code: T30
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:56:51.000000000 Z
+towns_292:
+  id: 292
+  name: 潮州鎮
+  code: T02
+  county_id: 16
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:16:51.000000000 Z
+towns_293:
+  id: 293
+  name: 新園鄉
+  code: T17
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:43:18.000000000 Z
+towns_294:
+  id: 294
+  name: 崁頂鄉
+  code: T18
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:16:38.000000000 Z
+towns_295:
+  id: 295
+  name: 新埤鄉
+  code: T15
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:49:34.000000000 Z
+towns_296:
+  id: 296
+  name: 南州鄉
+  code: T20
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:42:42.000000000 Z
+towns_297:
+  id: 297
+  name: 東港鎮
+  code: T03
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:36:58.000000000 Z
+towns_298:
+  id: 298
+  name: 春日鄉
+  code: T31
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:39:25.000000000 Z
+towns_299:
+  id: 299
+  name: 林邊鄉
+  code: T19
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:17:00.000000000 Z
+towns_300:
+  id: 300
+  name: 佳冬鄉
+  code: T21
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:40:42.000000000 Z
+towns_301:
+  id: 301
+  name: 枋寮鄉
+  code: T16
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:42:39.000000000 Z
+towns_302:
+  id: 302
+  name: 獅子鄉
+  code: T32
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:06:29.000000000 Z
+towns_303:
+  id: 303
+  name: 琉球鄉
+  code: T22
+  county_id: 16
+  current_rows_num: 0
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 07:40:19.000000000 Z
+towns_304:
+  id: 304
+  name: 枋山鄉
+  code: T25
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:58:01.000000000 Z
+towns_305:
+  id: 305
+  name: 牡丹鄉
+  code: T33
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:58:12.000000000 Z
+towns_306:
+  id: 306
+  name: 滿州鄉
+  code: T24
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:24:09.000000000 Z
+towns_307:
+  id: 307
+  name: 車城鄉
+  code: T23
+  county_id: 16
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:58:11.000000000 Z
+towns_308:
+  id: 308
+  name: 恆春鎮
+  code: T04
+  county_id: 16
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:41:04.000000000 Z
+towns_309:
+  id: 309
+  name: 礁溪鄉
+  code: G03
+  county_id: 17
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:10:44.000000000 Z
+towns_310:
+  id: 310
+  name: 壯圍鄉
+  code: G04
+  county_id: 17
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:40:54.000000000 Z
+towns_311:
+  id: 311
+  name: 員山鄉
+  code: G05
+  county_id: 17
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:57:46.000000000 Z
+towns_312:
+  id: 312
+  name: 宜蘭市
+  code: G01
+  county_id: 17
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:51:47.000000000 Z
+towns_313:
+  id: 313
+  name: 大同鄉
+  code: G11
+  county_id: 17
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 11:10:34.000000000 Z
+towns_314:
+  id: 314
+  name: 五結鄉
+  code: G07
+  county_id: 17
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 12:00:27.000000000 Z
+towns_315:
+  id: 315
+  name: 三星鄉
+  code: G10
+  county_id: 17
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:47:18.000000000 Z
+towns_316:
+  id: 316
+  name: 羅東鎮
+  code: G06
+  county_id: 17
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:58:20.000000000 Z
+towns_317:
+  id: 317
+  name: 冬山鄉
+  code: G08
+  county_id: 17
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 10:09:15.000000000 Z
+towns_318:
+  id: 318
+  name: 蘇澳鎮
+  code: G09
+  county_id: 17
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:16:57.000000000 Z
+towns_319:
+  id: 319
+  name: 南澳鄉
+  code: G12
+  county_id: 17
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 09:16:51.000000000 Z
+towns_320:
+  id: 320
+  name: 頭城鎮
+  code: G02
+  county_id: 17
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:21.000000000 Z
+  updated_at: 2014-04-01 08:58:13.000000000 Z
+towns_321:
+  id: 321
+  name: 秀林鄉
+  code: U11
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 09:39:47.000000000 Z
+towns_322:
+  id: 322
+  name: 新城鄉
+  code: U04
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 10:17:15.000000000 Z
+towns_323:
+  id: 323
+  name: 花蓮市
+  code: U01
+  county_id: 18
+  current_rows_num: 800
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 11:39:09.000000000 Z
+towns_324:
+  id: 324
+  name: 吉安鄉
+  code: U05
+  county_id: 18
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 10:43:10.000000000 Z
+towns_325:
+  id: 325
+  name: 壽豐鄉
+  code: U06
+  county_id: 18
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 09:29:21.000000000 Z
+towns_326:
+  id: 326
+  name: 萬榮鄉
+  code: U12
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 09:39:47.000000000 Z
+towns_327:
+  id: 327
+  name: 鳳林鎮
+  code: U07
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 09:39:55.000000000 Z
+towns_328:
+  id: 328
+  name: 豐濱鄉
+  code: U08
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 10:58:32.000000000 Z
+towns_329:
+  id: 329
+  name: 光復鄉
+  code: U02
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 11:37:08.000000000 Z
+towns_330:
+  id: 330
+  name: 卓溪鄉
+  code: U13
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:22.000000000 Z
+  updated_at: 2014-04-01 10:42:57.000000000 Z
+towns_331:
+  id: 331
+  name: 瑞穗鄉
+  code: U09
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:29:37.000000000 Z
+towns_332:
+  id: 332
+  name: 玉里鎮
+  code: U03
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:17:16.000000000 Z
+towns_333:
+  id: 333
+  name: 富里鄉
+  code: U10
+  county_id: 18
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:50:21.000000000 Z
+towns_334:
+  id: 334
+  name: 綠島鄉
+  code: V11
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 11:05:10.000000000 Z
+towns_335:
+  id: 335
+  name: 蘭嶼鄉
+  code: V16
+  county_id: 19
+  current_rows_num: 0
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-01-19 15:52:23.000000000 Z
+towns_336:
+  id: 336
+  name: 長濱鄉
+  code: V08
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:47:30.000000000 Z
+towns_337:
+  id: 337
+  name: 海端鄉
+  code: V13
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:07:06.000000000 Z
+towns_338:
+  id: 338
+  name: 成功鎮
+  code: V02
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:56:10.000000000 Z
+towns_339:
+  id: 339
+  name: 池上鄉
+  code: V10
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 08:08:55.000000000 Z
+towns_340:
+  id: 340
+  name: 關山鎮
+  code: V03
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:07:10.000000000 Z
+towns_341:
+  id: 341
+  name: 東河鄉
+  code: V07
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:37:49.000000000 Z
+towns_342:
+  id: 342
+  name: 鹿野鄉
+  code: V09
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 11:05:15.000000000 Z
+towns_343:
+  id: 343
+  name: 延平鄉
+  code: V12
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:50:27.000000000 Z
+towns_344:
+  id: 344
+  name: 卑南鄉
+  code: V04
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 08:09:00.000000000 Z
+towns_345:
+  id: 345
+  name: 臺東市
+  code: V01
+  county_id: 19
+  current_rows_num: 600
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:10:06.000000000 Z
+towns_346:
+  id: 346
+  name: 太麻里鄉
+  code: V06
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:24:28.000000000 Z
+towns_347:
+  id: 347
+  name: 金峰鄉
+  code: V15
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:17:22.000000000 Z
+towns_348:
+  id: 348
+  name: 達仁鄉
+  code: V14
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 09:17:26.000000000 Z
+towns_349:
+  id: 349
+  name: 大武鄉
+  code: V05
+  county_id: 19
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:23.000000000 Z
+  updated_at: 2014-04-01 10:10:06.000000000 Z
+towns_350:
+  id: 350
+  name: 白沙鄉
+  code: X03
+  county_id: 20
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:24.000000000 Z
+  updated_at: 2014-04-01 09:30:26.000000000 Z
+towns_351:
+  id: 351
+  name: 西嶼鄉
+  code: X04
+  county_id: 20
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:24.000000000 Z
+  updated_at: 2014-04-01 08:58:42.000000000 Z
+towns_352:
+  id: 352
+  name: 馬公市
+  code: X01
+  county_id: 20
+  current_rows_num: 400
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:24.000000000 Z
+  updated_at: 2014-04-01 10:10:20.000000000 Z
+towns_353:
+  id: 353
+  name: 湖西鄉
+  code: X02
+  county_id: 20
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:24.000000000 Z
+  updated_at: 2014-04-01 08:25:32.000000000 Z
+towns_354:
+  id: 354
+  name: 七美鄉
+  code: X06
+  county_id: 20
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:24.000000000 Z
+  updated_at: 2014-04-01 08:42:02.000000000 Z
+towns_355:
+  id: 355
+  name: 望安鄉
+  code: X05
+  county_id: 20
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:24.000000000 Z
+  updated_at: 2014-04-01 09:07:21.000000000 Z
+towns_356:
+  id: 356
+  name: 金沙鎮
+  code: W02
+  county_id: 21
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:25.000000000 Z
+  updated_at: 2014-04-01 10:31:19.000000000 Z
+towns_357:
+  id: 357
+  name: 金湖鎮
+  code: W01
+  county_id: 21
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:25.000000000 Z
+  updated_at: 2014-04-01 10:10:08.000000000 Z
+towns_358:
+  id: 358
+  name: 金寧鄉
+  code: W04
+  county_id: 21
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:25.000000000 Z
+  updated_at: 2014-04-01 10:56:16.000000000 Z
+towns_359:
+  id: 359
+  name: 金城鎮
+  code: W03
+  county_id: 21
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:25.000000000 Z
+  updated_at: 2014-04-01 08:25:53.000000000 Z
+towns_360:
+  id: 360
+  name: 烈嶼鄉
+  code: W05
+  county_id: 21
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:25.000000000 Z
+  updated_at: 2014-04-01 10:43:16.000000000 Z
+towns_361:
+  id: 361
+  name: 烏坵鄉
+  code: W06
+  county_id: 21
+  current_rows_num: 0
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:25.000000000 Z
+  updated_at: 2014-01-19 15:52:25.000000000 Z
+towns_362:
+  id: 362
+  name: 南竿鄉
+  code: Z01
+  county_id: 22
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:26.000000000 Z
+  updated_at: 2014-04-01 11:28:11.000000000 Z
+towns_363:
+  id: 363
+  name: 北竿鄉
+  code: Z02
+  county_id: 22
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:26.000000000 Z
+  updated_at: 2014-04-01 09:17:36.000000000 Z
+towns_364:
+  id: 364
+  name: 莒光鄉
+  code: Z03
+  county_id: 22
+  current_rows_num: 200
+  is_crawl_finished: 1
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:26.000000000 Z
+  updated_at: 2014-04-01 09:40:17.000000000 Z
+towns_365:
+  id: 365
+  name: 東引鄉
+  code: Z04
+  county_id: 22
+  current_rows_num: 0
+  is_crawl_finished: 0
+  last_crawl_date: 
+  created_at: 2014-01-19 15:52:26.000000000 Z
+  updated_at: 2014-02-25 12:59:32.000000000 Z

@@ -22,7 +22,7 @@ class RawDataCrawler
 
 		puts "query city: " + mCounty.name + "query town: " + mTown.name
 
-		downloaded_file = File.open("image#{mTown.id}.jpeg",'wb')
+		downloaded_file = File.open("pics/image#{mTown.id}.jpeg",'wb')
 		request = Typhoeus::Request.new(
 			url		
 		)
@@ -40,7 +40,7 @@ class RawDataCrawler
 
 		request.run
 
-		img = MiniMagick::Image.open("image#{mTown.id}.jpeg")
+		img = MiniMagick::Image.open("pics/image#{mTown.id}.jpeg")
 		img.crop("#{img[:width] - 2}x#{img[:height] - 2}+1+1") #去掉边框（上下左右各1像素）  
 		img.colorspace("GRAY") #灰度化  
 		img.monochrome #二值化  
