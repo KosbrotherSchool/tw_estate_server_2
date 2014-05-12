@@ -61,6 +61,8 @@ gem 'will_paginate'
 gem 'capistrano', '~> 2.15'
 gem 'capistrano-ext'
 
+gem 'net-ssh', '~> 2.8.1', :git => "https://github.com/net-ssh/net-ssh"
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
