@@ -20,10 +20,10 @@ role :db,  "106.186.24.99", :primary => true
 
 namespace :deploy do
 
-  task :copy_config_files, :roles => [:app] do
-    db_config = "#{shared_path}/config/database.yml"
-    run "cp #{db_config} #{release_path}/config/database.yml"
-  end
+  # task :copy_config_files, :roles => [:app] do
+    # db_config = "#{shared_path}/config/database.yml"
+    # run "cp #{db_config} #{release_path}/config/database.yml"
+  # end
   
   task :update_symlink do
     run "ln -s {shared_path}/public/system {current_path}/public/system"
@@ -36,6 +36,6 @@ namespace :deploy do
   end
 end
 
-before "deploy:assets:precompile", "deploy:copy_config_files" # 如果將database.yml放在shared下，請打開
-after "deploy:update_code", "deploy:copy_config_files" # 如果將database.yml放在shared下，請打開
+# before "deploy:assets:precompile", "deploy:copy_config_files" # 如果將database.yml放在shared下，請打開
+# after "deploy:update_code", "deploy:copy_config_files" # 如果將database.yml放在shared下，請打開
 # after "deploy:finalize_update", "deploy:update_symlink" # 如果有實作使用者上傳檔案到public/system，請打開
