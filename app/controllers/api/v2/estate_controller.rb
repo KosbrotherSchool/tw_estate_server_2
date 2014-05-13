@@ -245,5 +245,11 @@ class Api::V2::EstateController < ApplicationController
 		
 	end
 
+	def get_month_data
+		exchange_month = params[:exchange_month]
+		estates = Realestate.where(" exchange_date = #{exchange_month} ")
+		render :json => estates
+	end
+
 
 end

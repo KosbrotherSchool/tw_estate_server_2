@@ -25,6 +25,7 @@ TwEstateCrawlApp::Application.routes.draw do
 		    collection do
 		      get 'get_estate_details'
 		      get 'get_estate_by_distance'
+		      get 'get_month_data'
 		    end
 		  end
 		end
