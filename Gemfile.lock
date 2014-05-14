@@ -91,7 +91,7 @@ GEM
     mime-types (1.25.1)
     mini_magick (3.7.0)
       subexec (~> 0.2.1)
-    mini_portile (0.5.3)
+    mini_portile (0.6.0)
     minitest (5.3.3)
     multi_json (1.10.0)
     mysql2 (0.3.15)
@@ -99,11 +99,11 @@ GEM
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
-    net-ssh (2.9.0)
+    net-ssh (2.7.0)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-protection (1.5.3)
@@ -221,6 +221,7 @@ DEPENDENCIES
   jquery-rails
   mini_magick
   mysql2
+  net-ssh (= 2.7.0)
   nokogiri
   rails (= 4.1.1)
   rspec-rails

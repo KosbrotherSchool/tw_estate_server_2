@@ -251,5 +251,22 @@ class Api::V2::EstateController < ApplicationController
 		render :json => estates
 	end
 
+	def post_lender
+		
+		name = params[:name]
+		sexual = params[:sexual]
+      	loacation = params[:loacation]
+      	phone = params[:phone]
+      	phone_time = params[:phone_time]
+      	lender = Lender.new
+      	lender.name = name
+      	lender.sexual = sexual
+      	lender.loacation = loacation
+      	lender.phone = phone
+      	lender.phone_time = phone_time
+      	lender.save
+		
+	end
+
 
 end

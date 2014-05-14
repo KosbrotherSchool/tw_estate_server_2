@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140401005415) do
+ActiveRecord::Schema.define(version: 20140514034228) do
 
   create_table "building_data", force: true do |t|
     t.integer  "building_age"
@@ -64,6 +64,16 @@ ActiveRecord::Schema.define(version: 20140401005415) do
   end
 
   add_index "land_data", ["realestate_id"], name: "index_land_data_on_realestate_id", using: :btree
+
+  create_table "lenders", force: true do |t|
+    t.string   "name"
+    t.string   "sexual"
+    t.string   "loacation"
+    t.string   "phone"
+    t.string   "phone_time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "parking_data", force: true do |t|
     t.string   "index"

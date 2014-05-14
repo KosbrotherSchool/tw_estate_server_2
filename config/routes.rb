@@ -26,6 +26,7 @@ TwEstateCrawlApp::Application.routes.draw do
 		      get 'get_estate_details'
 		      get 'get_estate_by_distance'
 		      get 'get_month_data'
+		      post 'post_lender'
 		    end
 		  end
 		end
