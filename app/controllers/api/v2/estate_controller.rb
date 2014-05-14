@@ -1,5 +1,6 @@
 class Api::V2::EstateController < ApplicationController
-
+	skip_before_filter :verify_authenticity_token
+	
 	def get_estate_details
 
 		id = params[:estate_id]
