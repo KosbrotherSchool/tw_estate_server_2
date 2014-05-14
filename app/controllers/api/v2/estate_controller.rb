@@ -256,7 +256,7 @@ class Api::V2::EstateController < ApplicationController
 		
 		name = params[:name]
 		sexual = params[:sexual]
-      	loacation = params[:loacation]
+      	loacation = params[:location]
       	phone = params[:phone]
       	phone_time = params[:phone_time]
       	lender = Lender.new
