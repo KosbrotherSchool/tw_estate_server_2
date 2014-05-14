@@ -266,6 +266,8 @@ class Api::V2::EstateController < ApplicationController
       	lender.phone_time = phone_time
       	lender.save
 		
+		render :json => {message: "success"}
+
 	end
 
 
