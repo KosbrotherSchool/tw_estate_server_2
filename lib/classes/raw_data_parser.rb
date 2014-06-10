@@ -36,14 +36,14 @@ class RawDataParser
 
 			address = ""
 	 		begin
-	 			theRealEstate.address = item.children[0].children[2].to_s.strip
+	 			theRealEstate.address = item.children[1].children[2].to_s.strip
 	 		rescue Exception => e
 	 			
 	 		end		 		
 	 		# exchange_date
 	 		exchange_date = ""
 	 		begin
-	 			exchange_date = item.children[2].children.to_s.strip
+	 			exchange_date = item.children[3].children.to_s.strip
 	 			divide_position = exchange_date.index("/")
 	 			theRealEstate.exchange_year = exchange_date[0..divide_position-1].to_i
 	 			theRealEstate.exchange_month = exchange_date[divide_position+1..exchange_date.length].to_i
@@ -54,7 +54,7 @@ class RawDataParser
 	 		# total_price
 	 		total_price = ""
 	 		begin
-	 			total_price = item.children[4].children[1].children.to_s.strip
+	 			total_price = item.children[5].children[1].children.to_s.strip
 	 			theRealEstate.total_price = total_price.gsub(",","").to_i
 	 		rescue Exception => e
 	 			
@@ -63,7 +63,7 @@ class RawDataParser
 	 		# square_price
 	 		square_price = ""
 	 		begin
-	 			square_price = item.children[6].children[1].children.to_s.strip
+	 			square_price = item.children[7].children[1].children.to_s.strip
 	 			theRealEstate.square_price = square_price.gsub(",","").to_d
 	 		rescue Exception => e
 	 			
@@ -72,7 +72,7 @@ class RawDataParser
 	 		# total_area
 	 		total_area = ""
 	 		begin
-	 			total_area = item.children[8].children.to_s.strip
+	 			total_area = item.children[9].children.to_s.strip
 	 			theRealEstate.total_area = total_area.gsub(",","").to_d
 	 		rescue Exception => e
 	 			
@@ -81,7 +81,7 @@ class RawDataParser
 	 		# exchange content
 	 		# exchange_content = ""
 	 		begin
-	 			theRealEstate.exchange_content = item.children[10].children.to_s.strip
+	 			theRealEstate.exchange_content = item.children[11].children.to_s.strip
 	 		rescue Exception => e
 	 			
 	 		end	
@@ -89,7 +89,7 @@ class RawDataParser
 	 		# building_type
 	 		building_type = ""
 	 		begin
-	 			building_type = item.children[12].children[1][:title]
+	 			building_type = item.children[13].children[1][:title]
 	 			theRealEstate.building_type = building_type
 	 			if building_type.index("公寓")
 	 				theRealEstate.building_type_id = 1
@@ -123,7 +123,7 @@ class RawDataParser
 	 		# building_rooms
 	 		# building_rooms = ""
 	 		begin
-	 			theRealEstate.building_rooms = item.children[14].children.to_s.strip
+	 			theRealEstate.building_rooms = item.children[15].children.to_s.strip
 	 		rescue Exception => e
 	 			
 	 		end	
@@ -134,7 +134,7 @@ class RawDataParser
 
 	 		## judge the ground type id
 	 		item_view = page_no.css("#full_view#{item_num}")
-	 		ground_type = item_view.css("tr")[2].children[2].children.to_s
+	 		ground_type = item_view.css("tr")[2].children[3].children.to_s
 	 		if ground_type == "房地(土地+建物)"
 	 			theRealEstate.ground_type_id = 1
 	 		elsif ground_type == "房地(土地+建物)+車位"
@@ -188,9 +188,9 @@ class RawDataParser
 				2.upto(land_data_size) do |x|
 					item = landtable.css("tr")[x-1]
 					newLandData = LandData.new
-					newLandData.land_position =  item.children[0].children.to_s.strip
-					newLandData.land_area = item.children[2].children.to_s.strip
-					newLandData.land_usage = item.children[4].children.to_s.strip
+					newLandData.land_position =  item.children[1].children.to_s.strip
+					newLandData.land_area = item.children[3].children.to_s.strip
+					newLandData.land_usage = item.children[5].children.to_s.strip
 					newLandData.realestate_id = theRealEstate.id
 					newLandData.save
 					theRealEstate.is_detail_crawled = true
@@ -208,13 +208,13 @@ class RawDataParser
 				2.upto(buildingTable_size) do |x|
 					item = buildingTable.css("tr")[x-1]
 					newBuildingData = BuildingData.new
-					newBuildingData.building_age = item.children[0].children.to_s.strip.to_i
-					newBuildingData.building_area = item.children[2].children.to_s.strip
-					newBuildingData.building_purpose = item.children[4].children.to_s.strip
-					newBuildingData.building_material = item.children[6].children.to_s.strip
-					newBuildingData.building_built_date = item.children[8].children.to_s.strip
-					newBuildingData.building_total_layer = item.children[10].children.to_s.strip
-					newBuildingData.building_layer =  item.children[12].children.to_s.strip
+					newBuildingData.building_age = item.children[1].children.to_s.strip.to_i
+					newBuildingData.building_area = item.children[3].children.to_s.strip
+					newBuildingData.building_purpose = item.children[5].children.to_s.strip
+					newBuildingData.building_material = item.children[7].children.to_s.strip
+					newBuildingData.building_built_date = item.children[9].children.to_s.strip
+					newBuildingData.building_total_layer = item.children[11].children.to_s.strip
+					newBuildingData.building_layer =  item.children[13].children.to_s.strip
 					newBuildingData.realestate_id = theRealEstate.id
 					newBuildingData.save
 				end
@@ -237,10 +237,10 @@ class RawDataParser
 				2.upto(park_data_size) do |x|
 					item = parktable.css("tr")[x-1]
 					newParkingData = ParkingData.new
-					newParkingData.index = item.children[0].children.to_s.strip
-					newParkingData.parking_type = item.children[2].children.to_s.strip
-					newParkingData.parking_price = item.children[4].children.to_s.strip
-					newParkingData.parking_area = item.children[6].children.to_s.strip
+					newParkingData.index = item.children[1].children.to_s.strip
+					newParkingData.parking_type = item.children[3].children.to_s.strip
+					newParkingData.parking_price = item.children[5].children.to_s.strip
+					newParkingData.parking_area = item.children[7].children.to_s.strip
 					newParkingData.realestate_id = theRealEstate.id
 					newParkingData.save
 				end

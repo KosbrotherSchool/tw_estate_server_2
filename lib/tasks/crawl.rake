@@ -567,43 +567,4 @@ namespace :crawl do
 
 	end
 
-
-	# task :test => :environment do
-
-	# 	keyword = "阿媽的話 簫"
-	# 	keyword = keyword.strip.sub(" ", "+")
-	# 	url = "http://www.google.com/search?q=#{keyword}"
-
-	# 	headers = {
-	# 		"user-agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5)",
-	# 		"accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-	# 		"accept-charset" => "ISO-8859-1,utf-8;q=0.7,*;q=0.3",
-	# 		"accept-encoding" => "gzip,deflate,sdch",
-	# 		"accept-language" => "en-US,en;q=0.8",
-	# 	}
-
-	# 	response = Typhoeus.get(url, :headers => headers)
-
-	# 	# check the status code of the response to make sure the request went well
-	# 	if response.code != 200
-	# 		puts "request denied"
-	# 		return
-	# 	else
-	# 		puts "scraping " + url
-	# 	end
-
-	# 	dom = Nokogiri::HTML(response.body)
-
-	# 	# each result is an <li> element with class="g" this is our wrapper
-	# 	results = dom.css("li.g")
-
-	# 	# iterate over each of the result wrapper elements
-	# 	results.each { |result|
-	# 		# the main link is an <h3> element with class="r"
-	# 		result_anchor = result.css("h3.r").css("a")
-	# 		puts result_anchor
-	# 	}
-
-	# end
-
 end

@@ -95,6 +95,7 @@ class RawDataCrawler
 		# get token
 		token = getToken(cookies)	
 
+
 		qry_land_url = "http://lvr.land.moi.gov.tw/N11/QryClass_land.action"
 
 		qry_land_request = Typhoeus::Request.new(
@@ -132,20 +133,16 @@ class RawDataCrawler
 			}
 		)
 
-		# puts qry_land_request.url
-
 		qry_land_request.run
-
 		qry_land_response = qry_land_request.response
 
-		# puts qry_land_response.body
 
 		if qry_land_response.code != 200		
 			puts "request denied"
 			RawDataWorker.perform_async(town_id)
 			return
 		else
-			# puts qry_land_response.code
+
 			puts "request land data: " + qry_land_url
 			page_no = Nokogiri::HTML(qry_land_response.body, nil, "UTF-8")
 			if page_no.css("#hiddenresult").size == 0
@@ -193,8 +190,6 @@ class RawDataCrawler
 					cookie: cookies
 				}
 			)
-
-			# puts next_page_request.url
 
 			next_page_request.run
 			next_page_response = next_page_request.response
@@ -261,7 +256,6 @@ class RawDataCrawler
 			rawItem.raw_page_id = rawPage.id
 			
 			rawItem.item_num = item_num + 1
-
 			
 			xy_body = xy_response.body
 			xy_body = xy_body.gsub(" ","")
@@ -349,7 +343,7 @@ class RawDataCrawler
 			end
 
 			body = Nokogiri::HTML(tokenResponse.body)
-			token = body.children[1].children[0].children[1]["value"]
+			token = body.children[1].children[0].children[2]["value"]
 			return token
 	
 	end
