@@ -88,10 +88,18 @@ namespace :output do
 
 	end
 
-	desc "Testing environment and variables"
-	task :say_hello do
-	  name = ENV['NAME']
-	  puts "Hello, #{name}."
+	task :output_json => :environment do
+
+		exchange_date = ENV['DATE']
+		puts "date #{exchange_date}"
+		exchange_date = exchange_date.to_i
+		estate = EstateGov.where("exchange_date = #{exchange_date}")
+
+		Dir.mkdir('public') unless File.exists?('public')
+		File.open("public/#{exchange_date}.json","w") do |f|
+		 f.write(estate.to_json)
+		end
+
 	end
 
 end
