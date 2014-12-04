@@ -1,4 +1,6 @@
 
+require 'csv'
+
 namespace :output do
 
 	task :insert_estage_govs => :environment do
@@ -7,7 +9,7 @@ namespace :output do
 		puts "date #{exchange_date}"
 		exchange_date = exchange_date.to_i
 
-		Realestate.where("exchange_date = #{exchange_date}").each_with_index do |estate, index|
+		Realestate.where("exchange_date >= #{exchange_date}").each_with_index do |estate, index|
 			puts index.to_s
 
 			e_gov = EstateGov.new
@@ -89,17 +91,31 @@ namespace :output do
 	end
 
 	task :output_json => :environment do
+		exchange_date = ENV['DATE']
+		puts "date >= #{exchange_date}"
+		exchange_date = exchange_date.to_i
+		estates = EstateGov.where("exchange_date >= #{exchange_date}")
 
+		Dir.mkdir('public') unless File.exists?('public')
+		File.open("public/#{exchange_date}_#{exchange_date+3}.json","w") do |f|
+		 f.write(estates.to_json)
+		end
+	end
+
+	task :output_csv => :environment do
 		exchange_date = ENV['DATE']
 		puts "date #{exchange_date}"
 		exchange_date = exchange_date.to_i
-		estate = EstateGov.where("exchange_date = #{exchange_date}")
+		estates = EstateGov.where("exchange_date = #{exchange_date}")
 
-		Dir.mkdir('public') unless File.exists?('public')
-		File.open("public/#{exchange_date}.json","w") do |f|
-		 f.write(estate.to_json)
-		end
-
+		CSV.open("public/#{exchange_date}_#{exchange_date+3}.csv", "w") do |csv|
+      csv << EstateGov.column_names
+      estates.each do |estate|
+        csv << estate.attributes.values_at(*EstateGov.column_names)
+      end
+    end
 	end
+
+
 
 end
