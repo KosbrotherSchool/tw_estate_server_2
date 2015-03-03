@@ -24,7 +24,7 @@ class RawDataCrawler
 
 		downloaded_file = File.open("pics/image#{mTown.id}.jpeg",'wb')
 		request = Typhoeus::Request.new(
-			url		
+			url	
 		)
 
 		request.on_body do |chunk|
@@ -35,7 +35,7 @@ class RawDataCrawler
 		  # puts response.headers_hash
 		  response_header = response.headers_hash
 		  cookies = response_header['Set-Cookie']
-		  # puts cookies
+		  # puts "The Cookies" + cookies.to_s
 		end
 
 		request.run
@@ -70,23 +70,37 @@ class RawDataCrawler
 			}
 		)
 
-		if response.code != 200
-			puts "request denied"
+		# if response.code != 200
+		# 	puts "request denied"
+		# 	return
+		# else
+		# 	# puts response.code
+		# 	puts "scraping " + url
+		# end
+
+		dom = Nokogiri::HTML(response.body)
+		if !dom.css("body #sysinfodialog").any?
+			puts "wrong vailidation code, fail login"
+			RawDataWorker.perform_async(town_id)
 			return
 		else
-			# puts response.code
-			puts "scraping " + url
+			puts "驗證正確 success login"
 		end
-
-		# dom = Nokogiri::HTML(response.body)
-		# puts dom.css("body")
+		# puts dom.css("body #sysinfodialog")
+		# if dom.css("body").index("驗證碼錯誤")
+		# 	puts "驗證碼錯誤"
+		# 	RawDataWorker.perform_async(town_id)
+		# 	return
+		# else
+		# 	puts "驗證正確"
+		# end
 
 		# Call JavaScript Function
 		source = open("http://lvr.land.moi.gov.tw/INC/js/qt_base64.js").read
 		context = ExecJS.compile(source)
 		# context.call("doBase64","C")
-		qry_city = context.call("doBase64",qry_city)
-		qry_area_office = context.call("doBase64",qry_area_office)
+		qry_city = context.call("doBase64",qry_city.to_s)
+		qry_area_office = context.call("doBase64",qry_area_office.to_s)
 		qry_p_yyy_s = context.call("doBase64",start_year.to_s)
 		qry_season_s = context.call("doBase64",start_month.to_s)
 		qry_p_yyy_e = context.call("doBase64", end_year.to_s)
@@ -101,7 +115,7 @@ class RawDataCrawler
 		qry_land_request = Typhoeus::Request.new(
 		  	qry_land_url,
 		  	method: :post,
-		  	:params => { 
+		  	params:{ 
 		  		'type' => URI::encode("UXJ5ZGF0YQ=="),
 		  		'Qry_city' => URI::encode(qry_city),
 		  		'Qry_area_office' => URI::encode(qry_area_office),
@@ -123,19 +137,25 @@ class RawDataCrawler
 		  		'Qry_area_srh' => "",
 		  		'Qry_buildyear_s' => "",
 		  		'Qry_buildyear_e' => "",
+		  		'Qry_urban' => "",
+		  		'Qry_nurban' => "",
+		  		'Qry_pattern' => "",
 		  		'Qry_origin' => URI::encode("P"),
 		  		'Qry_avg' => URI::encode("off"),
 		  		'struts.token.name' => URI::encode("token"),
 		  		'token' => URI::encode(token)
 		  	},
 		  	headers:{
-				cookie: cookies
-			}
+					cookie: cookies,
+					'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+				}
 		)
 
 		qry_land_request.run
 		qry_land_response = qry_land_request.response
 
+		puts "response code " + qry_land_response.code.to_s
+		# puts qry_land_response.body.to_s
 
 		if qry_land_response.code != 200		
 			puts "request denied"
@@ -145,6 +165,7 @@ class RawDataCrawler
 
 			puts "request land data: " + qry_land_url
 			page_no = Nokogiri::HTML(qry_land_response.body, nil, "UTF-8")
+			# puts page_no
 			if page_no.css("#hiddenresult").size == 0
 				
 				if qry_land_response.body.index("description")

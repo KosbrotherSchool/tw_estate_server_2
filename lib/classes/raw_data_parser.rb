@@ -36,7 +36,7 @@ class RawDataParser
 
 			address = ""
 	 		begin
-	 			theRealEstate.address = item.children[1].children[2].to_s.strip
+	 			theRealEstate.address = item.css("#Address_#{item_num-1}").text
 	 		rescue Exception => e
 	 			
 	 		end		 		
@@ -81,7 +81,9 @@ class RawDataParser
 	 		# exchange content
 	 		# exchange_content = ""
 	 		begin
-	 			theRealEstate.exchange_content = item.children[11].children.to_s.strip
+	 			content_string = item.children[11].text.gsub("\n","")
+	 			content_string = content_string[1..content_string.length]
+	 			theRealEstate.exchange_content = content_string
 	 		rescue Exception => e
 	 			
 	 		end	
